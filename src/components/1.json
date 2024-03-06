@@ -1,0 +1,2311 @@
+{
+  "nextPageUrl": "https://api.msn.com:443/msn/Feed/me?$top=20&delta=True&session=525c61ce-5741-4609-bb43-8859fb96be52&$filter=_t eq 'CompositeCard'&contentType=slideshow&infopaneCount=24&queryType=myfeed&location=33.5638|-111.8925&ocid=hponeservicefeed&apikey=0QfOX3Vn51YCzitbLaRkTTBadtWpgTN8NZLW0C1SEM&responseSchema=cardview&cm=en-us&timeOut=1000",
+  "subCards": [
+    {
+      "type": "infopane",
+      "subCards": [
+        {
+          "id": "BB1jncu7",
+          "type": "article",
+          "title": "Xi's growing paranoia and secrecy are signs of just how badly China's economy is doing",
+          "abstract": "In battling China's multiple crises, Xi Jinping is leaning on his authoritarian instincts.",
+          "readTimeMin": 3,
+          "url": "https://www.msn.com/en-us/money/companies/xi-s-growing-paranoia-and-secrecy-are-signs-of-just-how-badly-china-s-economy-is-doing/ar-BB1jncu7",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              { "topic": "wf_sentiment_positive", "score": 2888 },
+              { "topic": "wf_sentiment_negative", "score": 5160 },
+              { "topic": "wf_sentiment_neutral", "score": 1951 }
+            ],
+            "categories": [{ "topic": "companies", "score": 10000 }]
+          },
+          "publishedDateTime": "2024-03-05T15:50:01Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 911,
+              "height": 683,
+              "quality": 75,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1jna4S.img",
+              "attribution": "Provided by Business Insider",
+              "title": "Xi's growing paranoia and secrecy are signs of just how badly China's economy is doing",
+              "focalRegion": { "x1": 306, "x2": 352, "y1": 114, "y2": 160 },
+              "source": "msn",
+              "colorSamples": [
+                { "isDarkMode": true, "hexColor": "#503434" },
+                { "isDarkMode": false, "hexColor": "#EEECF1" }
+              ]
+            }
+          ],
+          "colorSamples": [
+            { "isDarkMode": true, "hexColor": "#503434" },
+            { "isDarkMode": false, "hexColor": "#EEECF1" }
+          ],
+          "provider": {
+            "id": "AA28VO",
+            "name": "Business Insider",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1jWIH2.img",
+            "profileId": "vid-4qxq24u76gj8w0kuhjmbh4b4ywiern9gn5x28wpnh2qu5g8xb3ga",
+            "lightThemeSVGLogo": {
+              "width": 91,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13f2C0"
+            },
+            "darkThemeSVGLogo": {
+              "width": 91,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13f2C0-dark"
+            }
+          },
+          "category": "money",
+          "reactionSummary": {
+            "totalCount": 220,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 200, "type": "upvote" },
+                { "totalCount": 19, "type": "downvote" },
+                { "totalCount": 1, "type": "thinking" }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 50,
+            "subCommentSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubCommentSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 25, "type": "comment" },
+                { "totalCount": 25, "type": "reply" }
+              ]
+            }
+          },
+          "commentStatus": "on",
+          "relevanceScore": 900.064857,
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_ee352f2b-a60f-41b3-9b10-4d54b4e7f3f9",
+            "feedName": "World"
+          },
+          "topics": [
+            {
+              "label": "World",
+              "weight": 0.759884238243103,
+              "feedId": "Y_ee352f2b-a60f-41b3-9b10-4d54b4e7f3f9",
+              "locale": "en-us"
+            },
+            {
+              "label": "News",
+              "weight": 0.759884238243103,
+              "feedId": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+              "locale": "en-us"
+            },
+            {
+              "label": "World News",
+              "weight": 0.759884238243103,
+              "feedId": "Y_b88b0202-4577-4a24-8165-f0073e32f257",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "ri": "334",
+          "recoId": "9m135DgplucK0q1ktu70O2iLwm",
+          "source": "msn"
+        },
+        {
+          "id": "BB1jntuk",
+          "type": "article",
+          "title": "Yemen's people and leaders are getting tired of the Houthi problem",
+          "abstract": "Many Yemenis are tired of the way the Houthis have hijacked the country to turn it into a platform for Iran and Iran’s proxy war against Israel, the US, and the region.",
+          "readTimeMin": 2,
+          "url": "https://www.msn.com/en-us/news/world/yemen-s-people-and-leaders-are-getting-tired-of-the-houthi-problem/ar-BB1jntuk",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              { "topic": "wf_sentiment_positive", "score": 2403 },
+              { "topic": "wf_sentiment_negative", "score": 1658 },
+              { "topic": "wf_sentiment_neutral", "score": 5937 }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-03-05T18:22:19Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 822,
+              "height": 537,
+              "quality": 72,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1jkbLB.img",
+              "attribution": "(photo credit: KHALED ABDULLAH/REUTERS)",
+              "title": "PROTESTERS, MAINLY Houthi supporters, rally to show support for the Palestinians in the Gaza Strip, in Sanaa, Yemen, this past Friday.",
+              "caption": " PROTESTERS, MAINLY Houthi supporters, rally to show support for the Palestinians in the Gaza Strip, in Sanaa, Yemen, this past Friday.",
+              "focalRegion": { "x1": 57, "x2": 648, "y1": 323, "y2": 482 },
+              "source": "msn",
+              "colorSamples": [
+                { "isDarkMode": true, "hexColor": "#35312A" },
+                { "isDarkMode": false, "hexColor": "#F4F3F1" }
+              ]
+            }
+          ],
+          "colorSamples": [
+            { "isDarkMode": true, "hexColor": "#35312A" },
+            { "isDarkMode": false, "hexColor": "#F4F3F1" }
+          ],
+          "provider": {
+            "id": "AARzlG2",
+            "name": "The Jerusalem Post",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AASRnwM.img",
+            "profileId": "vid-uighp99ex5f6iupujpin09gshajn94cp96xgs2isbr63e4hc2e4a",
+            "lightThemeSVGLogo": {
+              "width": 80,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13goEo"
+            },
+            "darkThemeSVGLogo": {
+              "width": 80,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13goEo-dark"
+            }
+          },
+          "category": "news",
+          "reactionSummary": {
+            "totalCount": 272,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 236, "type": "upvote" },
+                { "totalCount": 36, "type": "downvote" }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 27,
+            "subCommentSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubCommentSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 20, "type": "comment" },
+                { "totalCount": 7, "type": "reply" }
+              ]
+            }
+          },
+          "commentStatus": "on",
+          "relevanceScore": 899.064857,
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_ee352f2b-a60f-41b3-9b10-4d54b4e7f3f9",
+            "feedName": "World"
+          },
+          "topics": [
+            {
+              "label": "World",
+              "weight": 0.8190311789512634,
+              "feedId": "Y_ee352f2b-a60f-41b3-9b10-4d54b4e7f3f9",
+              "locale": "en-us"
+            },
+            {
+              "label": "News",
+              "weight": 0.8190311789512634,
+              "feedId": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+              "locale": "en-us"
+            },
+            {
+              "label": "World News",
+              "weight": 0.8190311789512634,
+              "feedId": "Y_b88b0202-4577-4a24-8165-f0073e32f257",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "ri": "313,334,338",
+          "recoId": "9m135DgplucK0q1ktu70O2iLwm",
+          "source": "msn"
+        },
+        {
+          "id": "BB1jnKj5",
+          "type": "article",
+          "title": "Independent Sen. Kyrsten Sinema of Arizona says she won’t seek reelection, avoiding 3-way race",
+          "abstract": "PHOENIX (AP) — Independent Sen. Kyrsten Sinema of Arizona announced Tuesday that she won’t run for a second term after her estrangement from the Democratic Party left her politically homeless and without a clear path to reelection. Sinema’s announcement comes after Senate Republicans blocked a bipartisan bill to help secure the U.S.-Mexico border and deliver military aid to Ukraine and Israel, which Sinema spent months negotiating. She’d hoped...",
+          "readTimeMin": 5,
+          "url": "https://www.msn.com/en-us/news/politics/independent-sen-kyrsten-sinema-of-arizona-says-she-won-t-seek-reelection-avoiding-3-way-race/ar-BB1jnKj5",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              { "topic": "wf_sentiment_positive", "score": 398 },
+              { "topic": "wf_sentiment_negative", "score": 293 },
+              { "topic": "wf_sentiment_neutral", "score": 9308 }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-03-05T19:27:19Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 3197,
+              "height": 2131,
+              "quality": 93,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1jnKiZ.img",
+              "attribution": "Provided by The Associated Press",
+              "title": "FILE - Then Sen. Kyrsten Sinema, D-Ariz., speaks to reporters at the Capitol in Washington, Nov. 29, 2022. Independent Sen. Kyrsten Sinema of Arizona has announced that she won’t run for a second term. Her decision Tuesday comes after her estrangement from the Democratic Party left her politically homeless and without a clear path to reelection. (AP Photo/J. Scott Applewhite, File)",
+              "caption": "FILE - Then Sen. Kyrsten Sinema, D-Ariz., speaks to reporters at the Capitol in Washington, Nov. 29, 2022. Independent Sen. Kyrsten Sinema of Arizona has announced that she won’t run for a second term. Her decision Tuesday comes after her estrangement from the Democratic Party left her politically homeless and without a clear path to reelection. (AP Photo/J. Scott Applewhite, File)",
+              "focalRegion": { "x1": 739, "x2": 2007, "y1": 378, "y2": 1646 },
+              "source": "msn",
+              "colorSamples": [
+                { "isDarkMode": true, "hexColor": "#3B2B2B" },
+                { "isDarkMode": false, "hexColor": "#FEE2DC" }
+              ]
+            }
+          ],
+          "colorSamples": [
+            { "isDarkMode": true, "hexColor": "#3B2B2B" },
+            { "isDarkMode": false, "hexColor": "#FEE2DC" }
+          ],
+          "provider": {
+            "id": "AA7mZ3",
+            "name": "The Associated Press",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA15Yat4.img",
+            "profileId": "vid-b5wrcq2rxin3r63c989gsixnar8rq6k82y8babncp60xqtjibrgs",
+            "lightThemeSVGLogo": {
+              "width": 72,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13f2DV"
+            },
+            "darkThemeSVGLogo": {
+              "width": 72,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13f2DV-dark"
+            }
+          },
+          "category": "news",
+          "reactionSummary": {
+            "totalCount": 267,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 231, "type": "upvote" },
+                { "totalCount": 36, "type": "downvote" }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 65,
+            "subCommentSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubCommentSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 52, "type": "comment" },
+                { "totalCount": 13, "type": "reply" }
+              ]
+            }
+          },
+          "commentStatus": "on",
+          "relevanceScore": 898.064857,
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_bced654c-7e2e-4c63-acb4-f3b3b89bd4e3",
+            "feedName": "Politics"
+          },
+          "topics": [
+            {
+              "label": "Politics",
+              "weight": 0.8350973725318909,
+              "feedId": "Y_bced654c-7e2e-4c63-acb4-f3b3b89bd4e3",
+              "locale": "en-us"
+            },
+            {
+              "label": "News",
+              "weight": 0.8350973725318909,
+              "feedId": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "ri": "334,338",
+          "recoId": "9m135DgplucK0q1ktu70O2iLwm",
+          "source": "msn"
+        },
+        {
+          "id": "BB1jmCFH",
+          "type": "article",
+          "title": "Italy Deals Air-Defense Blow to NATO Ally's Pro-Putin Leader",
+          "abstract": "Rome's decision to relocate one of its SAMP/T anti-air missile systems has left a NATO ally with a gap in its defences.",
+          "readTimeMin": 3,
+          "url": "https://www.msn.com/en-us/news/world/italy-deals-air-defense-blow-to-nato-ally-s-pro-putin-leader/ar-BB1jmCFH",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              { "topic": "wf_sentiment_positive", "score": 1415 },
+              { "topic": "wf_sentiment_negative", "score": 8207 },
+              { "topic": "wf_sentiment_neutral", "score": 376 }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-03-05T12:53:09Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 2500,
+              "height": 1725,
+              "quality": 89,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1jmysJ.img",
+              "attribution": "JOE KLAMAR/AFP via Getty Images",
+              "title": "SAMP/T Mamba AA system in Slovakia 2023",
+              "caption": "A French-Italian SAMP/T Mamba air defence system is seen at Kuchyna air base, north of Bratislava, Slovakia on April 19, 2023. Rome is now withdrawing the system after a year-long deployment.",
+              "source": "msn",
+              "colorSamples": [
+                { "isDarkMode": true, "hexColor": "#2E3338" },
+                { "isDarkMode": false, "hexColor": "#D6E7B4" }
+              ]
+            }
+          ],
+          "colorSamples": [
+            { "isDarkMode": true, "hexColor": "#2E3338" },
+            { "isDarkMode": false, "hexColor": "#D6E7B4" }
+          ],
+          "provider": {
+            "id": "AA2e5M",
+            "name": "Newsweek",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA12I8qo.img",
+            "profileId": "vid-0nurhdau9w9c0atm8pudgwwx007r59b75a7dnxb7irn5b22mrdga",
+            "lightThemeSVGLogo": {
+              "width": 47,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13D4or"
+            },
+            "darkThemeSVGLogo": {
+              "width": 47,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13D4or-dark"
+            }
+          },
+          "category": "news",
+          "reactionSummary": {
+            "totalCount": 568,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 505, "type": "upvote" },
+                { "totalCount": 63, "type": "downvote" }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 65,
+            "subCommentSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubCommentSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 31, "type": "comment" },
+                { "totalCount": 34, "type": "reply" }
+              ]
+            }
+          },
+          "commentStatus": "on",
+          "relevanceScore": 897.064857,
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+            "feedName": "News"
+          },
+          "topics": [
+            {
+              "label": "News",
+              "weight": 0.7265912294387817,
+              "feedId": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+              "locale": "en-us"
+            },
+            {
+              "label": "World News",
+              "weight": 0.7265912294387817,
+              "feedId": "Y_b88b0202-4577-4a24-8165-f0073e32f257",
+              "locale": "en-us"
+            },
+            {
+              "label": "World",
+              "weight": 0.7265912294387817,
+              "feedId": "Y_ee352f2b-a60f-41b3-9b10-4d54b4e7f3f9",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "ri": "334,338",
+          "recoId": "9m135DgplucK0q1ktu70O2iLwm",
+          "source": "msn",
+          "highlights": {
+            "$type": "System.Collections.Generic.List`1[[Msn.TagsDataModel.TagEntityLib.Highlight, Msn.TagsDataModel]], System.Private.CoreLib",
+            "$values": [
+              {
+                "text": "\nPossible response:\n\n**Italian withdrawal of air-defense system angers Slovakian PM**\n\n- Italy decided to remove the SAMP/T platform from Slovakia, which was deployed there after Slovakia donated its S-300 system to Ukraine.\n- Slovakian PM Robert Fico accused President Zuzana Čaputová of \"servility to foreign interests\" and said the withdrawal would leave Slovakia vulnerable to attacks.\n- Slovakia is facing a gap in its air defense and military aviation, and is in talks with the U.S. to acquire a Patriot system.\n\n**Slovakian PM opposes Western strategy on Ukraine**\n\n- Fico returned to power in September 2023 with a pro-Russian stance and an opposition to arming Ukraine.\n- He ended Slovakia's active military support for Kyiv and called for an immediate ceasefire that would favor Moscow.\n- He also criticized former British PM Boris Johnson for allegedly discouraging peace talks in 2022.\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BB1jn3Vb",
+          "type": "article",
+          "title": "Opinion: The West must not repeat in Ukraine the mistakes that led to World War II",
+          "abstract": "The solution to the malaise over Ukraine, however, is not to curtail Western aid and weaken Ukraine’s will and ability to resist Russia’s aggression, but to finally provide all it needs to win.",
+          "readTimeMin": 4,
+          "url": "https://www.msn.com/en-us/news/politics/opinion-the-west-must-not-repeat-in-ukraine-the-mistakes-that-led-to-world-war-ii/ar-BB1jn3Vb",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              { "topic": "wf_sentiment_positive", "score": 2309 },
+              { "topic": "wf_sentiment_negative", "score": 4862 },
+              { "topic": "wf_sentiment_neutral", "score": 2828 }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-03-05T15:00:00Z",
+          "isFeatured": false,
+          "badges": [{ "type": "opinion" }],
+          "images": [
+            {
+              "width": 900,
+              "height": 505,
+              "quality": 88,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1jnf5K.img",
+              "attribution": "Provided by The Hill",
+              "title": "Opinion: The West must not repeat in Ukraine the mistakes that led to World War II",
+              "source": "msn",
+              "colorSamples": [
+                { "isDarkMode": true, "hexColor": "#990E0E" },
+                { "isDarkMode": false, "hexColor": "#F4F3F3" }
+              ]
+            }
+          ],
+          "colorSamples": [
+            { "isDarkMode": true, "hexColor": "#990E0E" },
+            { "isDarkMode": false, "hexColor": "#F4F3F3" }
+          ],
+          "provider": {
+            "id": "BB5lUEX",
+            "name": "The Hill",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBUvpML.img",
+            "profileId": "vid-mxrmyqpv75gb9m6ws7nujhjri5me6stfjj4mxyvwn8u04btv5r3s",
+            "lightThemeSVGLogo": {
+              "width": 86,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA12QGBm"
+            },
+            "darkThemeSVGLogo": {
+              "width": 86,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA12QGBm-dark"
+            }
+          },
+          "category": "news",
+          "reactionSummary": {
+            "totalCount": 297,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 246, "type": "upvote" },
+                { "totalCount": 51, "type": "downvote" }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": { "totalCount": 0 },
+          "commentStatus": "disabled",
+          "relevanceScore": 896.064857,
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_bced654c-7e2e-4c63-acb4-f3b3b89bd4e3",
+            "feedName": "Politics"
+          },
+          "topics": [
+            {
+              "label": "Politics",
+              "weight": 1.0,
+              "feedId": "Y_bced654c-7e2e-4c63-acb4-f3b3b89bd4e3",
+              "locale": "en-us"
+            },
+            {
+              "label": "News",
+              "weight": 0.493116557598114,
+              "feedId": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "ri": "313,334",
+          "recoId": "9m135DgplucK0q1ktu70O2iLwm",
+          "source": "msn"
+        },
+        {
+          "id": "BB1jm8Xl",
+          "type": "article",
+          "title": "Jon Stewart Dismantles Donald Trump's New Catchphrase",
+          "abstract": "The \"Daily Show\" host is not \"completely sold\" on the former president's latest ridiculousness.",
+          "readTimeMin": 1,
+          "url": "https://www.msn.com/en-us/news/politics/jon-stewart-dismantles-donald-trump-s-new-catchphrase/ar-BB1jm8Xl",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              { "topic": "wf_sentiment_positive", "score": 414 },
+              { "topic": "wf_sentiment_negative", "score": 62 },
+              { "topic": "wf_sentiment_neutral", "score": 9522 }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-03-05T10:20:33Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 1876,
+              "height": 895,
+              "quality": 79,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1jlSJx.img",
+              "attribution": "Provided by HuffPost",
+              "title": "The Daily Show (Photo: The Daily Show)",
+              "caption": "The Daily Show (Photo: The Daily Show)",
+              "focalRegion": { "x1": 1309, "x2": 1512, "y1": 199, "y2": 402 },
+              "source": "msn",
+              "colorSamples": [
+                { "isDarkMode": true, "hexColor": "#1B2763" },
+                { "isDarkMode": false, "hexColor": "#DDD4E4" }
+              ]
+            }
+          ],
+          "colorSamples": [
+            { "isDarkMode": true, "hexColor": "#1B2763" },
+            { "isDarkMode": false, "hexColor": "#DDD4E4" }
+          ],
+          "provider": {
+            "id": "AAVsqtO",
+            "name": "HuffPost",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAVs9cU.img",
+            "profileId": "vid-mgh7y4jnc2sdh78kbccmd6m8kekefsabiuc3pk0uqejm36849g7a",
+            "lightThemeSVGLogo": {
+              "width": 103,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13gDjX"
+            },
+            "darkThemeSVGLogo": {
+              "width": 103,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13gDjX-dark"
+            }
+          },
+          "category": "news",
+          "reactionSummary": {
+            "totalCount": 1540,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 874, "type": "upvote" },
+                { "totalCount": 665, "type": "downvote" },
+                { "totalCount": 1, "type": "angry" }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 332,
+            "subCommentSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubCommentSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 91, "type": "comment" },
+                { "totalCount": 241, "type": "reply" }
+              ]
+            }
+          },
+          "commentStatus": "on",
+          "relevanceScore": 895.064857,
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+            "feedName": "News"
+          },
+          "topics": [
+            {
+              "label": "News",
+              "weight": 0.9543465375900269,
+              "feedId": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+              "locale": "en-us"
+            },
+            {
+              "label": "TV",
+              "weight": 0.7881261110305786,
+              "feedId": "Y_ecf14ace-5910-4da7-a26f-3919270f1200",
+              "locale": "en-us"
+            },
+            {
+              "label": "Entertainment",
+              "weight": 0.7881261110305786,
+              "feedId": "Y_414a7c40-a373-4025-b4ce-e9502e9e17ed",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "ri": "313,338",
+          "recoId": "9m135DgplucK0q1ktu70O2iLwm",
+          "source": "msn"
+        },
+        {
+          "id": "BB1jmdRV",
+          "type": "article",
+          "title": "Giada De Laurentiis makes Scottsdale debut. What to expect at her new Italian restaurants",
+          "abstract": "Food Network chef Giada De Laurentiis opens two new restaurants inside the Caesars Republic Scottsdale hotel. What to expect at Luna and Pronto.",
+          "readTimeMin": 3,
+          "url": "https://www.msn.com/en-us/foodanddrink/foodnews/giada-de-laurentiis-makes-scottsdale-debut-what-to-expect-at-her-new-italian-restaurants/ar-BB1jmdRV",
+          "locale": "en-us",
+          "isLocalContent": true,
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              { "topic": "wf_sentiment_positive", "score": 7822 },
+              { "topic": "wf_sentiment_negative", "score": 33 },
+              { "topic": "wf_sentiment_neutral", "score": 2143 }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-03-05T12:01:46Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 885,
+              "height": 1150,
+              "quality": 75,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1jmigD.img",
+              "attribution": "Courtesy of Giada De Laurentiis",
+              "title": "Giada De Laurentiis",
+              "caption": "Giada De Laurentiis",
+              "focalRegion": { "x1": 269, "x2": 511, "y1": 228, "y2": 470 },
+              "source": "msn",
+              "colorSamples": [
+                { "isDarkMode": true, "hexColor": "#654A18" },
+                { "isDarkMode": false, "hexColor": "#ECEDE8" }
+              ]
+            }
+          ],
+          "colorSamples": [
+            { "isDarkMode": true, "hexColor": "#654A18" },
+            { "isDarkMode": false, "hexColor": "#ECEDE8" }
+          ],
+          "provider": {
+            "id": "AAzjKCM",
+            "name": "Arizona Republic",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAzME7S.img",
+            "profileId": "vid-awp30v0teytdyx2rrt8nb6s9t0cf02hjfrm0vrx2krhe8snxqahs",
+            "lightThemeSVGLogo": {
+              "width": 76,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13gMhz"
+            },
+            "darkThemeSVGLogo": {
+              "width": 76,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13gMhz-dark"
+            }
+          },
+          "category": "foodanddrink",
+          "reactionSummary": {
+            "totalCount": 20,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 12, "type": "upvote" },
+                { "totalCount": 8, "type": "downvote" }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 1,
+            "subCommentSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubCommentSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [{ "totalCount": 1, "type": "comment" }]
+            }
+          },
+          "commentStatus": "on",
+          "relevanceScore": 894.064857,
+          "subscriptionProductType": "undefined",
+          "feed": { "feedName": "news" },
+          "topics": [],
+          "isWorkNewsContent": false,
+          "ri": "301,316",
+          "recoId": "9m135DgplucK0q1ktu70O2iLwm",
+          "source": "msn",
+          "highlights": {
+            "$type": "System.Collections.Generic.List`1[[Msn.TagsDataModel.TagEntityLib.Highlight, Msn.TagsDataModel]], System.Private.CoreLib",
+            "$values": [
+              {
+                "text": "**New restaurants from Giada De Laurentiis:** The celebrity chef opens two Italian eateries at the Caesars Republic Scottsdale hotel on March 6. Luna by Giada is a sophisticated dining room with family photos and art, while Pronto by Giada is a casual cafe with gelati and paninis.\n\n**Luna by Giada menu:** The restaurant features some of De Laurentiis' signature dishes, such as lemon spaghetti and chicken panzanella, as well as new items, such as lemon pizza and Nodi Marini alla vodka. The menu also includes lobster bucatini, pork chop saltimbocca and Bistecca alla Fiorentina.\n\n**Pronto by Giada menu:** The cafe offers breakfast and lunch options, such as sausage and egg sandwich, smoked salmon bagel, caprese panini and turkey, bacon and avocado panini. Pronto also serves gelati imported from Los Angeles. "
+              }
+            ]
+          }
+        },
+        {
+          "id": "BB1jmNm3",
+          "type": "article",
+          "title": "The Houthis Are Very, Very Pleased",
+          "abstract": "Since staking claim to the Palestinian cause, the Yemeni militants have come to seem unstoppable.",
+          "readTimeMin": 19,
+          "url": "https://www.msn.com/en-us/news/world/the-houthis-are-very-very-pleased/ar-BB1jmNm3",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              { "topic": "wf_sentiment_positive", "score": 9723 },
+              { "topic": "wf_sentiment_negative", "score": 97 },
+              { "topic": "wf_sentiment_neutral", "score": 179 }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-03-05T14:21:20Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 4580,
+              "height": 2576,
+              "quality": 80,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1jmWcu.img",
+              "attribution": "MohammedHamoud / Getty",
+              "title": "Have the Houthis Become Unstoppable?",
+              "source": "msn",
+              "colorSamples": [
+                { "isDarkMode": true, "hexColor": "#17457A" },
+                { "isDarkMode": false, "hexColor": "#C5D5EF" }
+              ]
+            }
+          ],
+          "colorSamples": [
+            { "isDarkMode": true, "hexColor": "#17457A" },
+            { "isDarkMode": false, "hexColor": "#C5D5EF" }
+          ],
+          "provider": {
+            "id": "AA28PS",
+            "name": "The Atlantic",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBY4G4r.img",
+            "profileId": "vid-4qwfkgqsatg5xhpxffynh6p9dkh2a8en07p68i969n25hx8963ka",
+            "lightThemeSVGLogo": {
+              "width": 12,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13gHFX"
+            },
+            "darkThemeSVGLogo": {
+              "width": 12,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13gHFX-dark"
+            }
+          },
+          "category": "news",
+          "reactionSummary": {
+            "totalCount": 332,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 225, "type": "downvote" },
+                { "totalCount": 107, "type": "upvote" }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 97,
+            "subCommentSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubCommentSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 39, "type": "comment" },
+                { "totalCount": 58, "type": "reply" }
+              ]
+            }
+          },
+          "commentStatus": "on",
+          "relevanceScore": 893.064857,
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+            "feedName": "News"
+          },
+          "topics": [
+            {
+              "label": "News",
+              "weight": 0.7237685322761536,
+              "feedId": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+              "locale": "en-us"
+            },
+            {
+              "label": "World News",
+              "weight": 0.7237685322761536,
+              "feedId": "Y_b88b0202-4577-4a24-8165-f0073e32f257",
+              "locale": "en-us"
+            },
+            {
+              "label": "World",
+              "weight": 0.7237685322761536,
+              "feedId": "Y_ee352f2b-a60f-41b3-9b10-4d54b4e7f3f9",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "ri": "334",
+          "recoId": "9m135DgplucK0q1ktu70O2iLwm",
+          "source": "msn",
+          "highlights": {
+            "$type": "System.Collections.Generic.List`1[[Msn.TagsDataModel.TagEntityLib.Highlight, Msn.TagsDataModel]], System.Private.CoreLib",
+            "$values": [
+              {
+                "text": "The article explores the rise and influence of ***Abdulmalik al-Houthi***, the leader of the **Houthis**, a militant movement in northern Yemen. It:\n\n- Provides historical and biographical details about the Houthis' origins, ideology, and conflicts with the Yemeni state and Saudi Arabia.\n- Explains the Houthis' bold and provocative actions in **defending Gaza** and **attacking commercial ships** in the Red Sea, which have gained them global attention and support.\n- Interviews **Abdelmalek al-Ejri**, a Houthi diplomat in Oman, who reveals the Houthis' **confidence, vision, and ambition** to be the main political and military actor in Yemen and the region, surpassing even Iran.\n- Highlights the **mystery and hostility** that surround the Houthis, who have no clear political agenda, no birth certificate, and no foreign contact.\n- Emphasizes the role of **Saudi Arabia** in creating and supporting the Houthis, and the consequences of their growing power and aggression for the region and the world.\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BB1jnDXf",
+          "type": "article",
+          "title": "Russell Wilson shows his disdain for Sean Payton in his farewell to the Denver Broncos",
+          "abstract": "The team fired Wilson on Monday after two months of speculation about it.. Hidden grudges always come to light, whether through open rebuke or innuendo, just as Russell Wilson did with head coach Sean Payton. In his farewell message to the Denver Broncos, the quarterback even thanked the ladies in the cafeteria without any mention of the head coach. Although there was never a public fight, Wilson and Payton's relationship was not the best behind...",
+          "readTimeMin": 2,
+          "url": "https://www.msn.com/en-us/sports/nfl/russell-wilson-shows-his-disdain-for-sean-payton-in-his-farewell-to-the-denver-broncos/ar-BB1jnDXf",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              { "topic": "wf_sentiment_positive", "score": 442 },
+              { "topic": "wf_sentiment_negative", "score": 7584 },
+              { "topic": "wf_sentiment_neutral", "score": 1973 }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-03-05T19:28:43Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 1980,
+              "height": 1320,
+              "quality": 94,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1itPIa.img",
+              "attribution": "LAPRESSE",
+              "title": "Russell Wilson at a press conference after the loss to the Pats on Dec. 24.",
+              "caption": "Russell Wilson at a press conference after the loss to the Pats on Dec. 24.",
+              "focalRegion": { "x1": 822, "x2": 1055, "y1": 183, "y2": 416 },
+              "source": "msn",
+              "colorSamples": [
+                { "isDarkMode": true, "hexColor": "#232B42" },
+                { "isDarkMode": false, "hexColor": "#C9DADE" }
+              ]
+            }
+          ],
+          "colorSamples": [
+            { "isDarkMode": true, "hexColor": "#232B42" },
+            { "isDarkMode": false, "hexColor": "#C9DADE" }
+          ],
+          "provider": {
+            "id": "AA2eiS",
+            "name": "Marca",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2r4xY.img",
+            "profileId": "vid-r0i8cghc6i6j84vwfg06fimd2dm78y26jam6wg94jj86kygr3kms"
+          },
+          "category": "sports",
+          "reactionSummary": {
+            "totalCount": 83,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 50, "type": "upvote" },
+                { "totalCount": 32, "type": "downvote" },
+                { "totalCount": 1, "type": "angry" }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 12,
+            "subCommentSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubCommentSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 8, "type": "comment" },
+                { "totalCount": 4, "type": "reply" }
+              ]
+            }
+          },
+          "commentStatus": "on",
+          "relevanceScore": 892.064857,
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_b09e3e40-000d-454d-87ef-96631d7c9e7c",
+            "feedName": "Sports"
+          },
+          "topics": [
+            {
+              "label": "Sports",
+              "weight": 0.9971261620521545,
+              "feedId": "Y_b09e3e40-000d-454d-87ef-96631d7c9e7c",
+              "locale": "en-us"
+            },
+            {
+              "label": "NFL",
+              "weight": 0.949999988079071,
+              "feedId": "Y_74efeb41-defd-43fb-81d6-638be8f07d2d",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "ri": "338",
+          "recoId": "9m135DgplucK0q1ktu70O2iLwm",
+          "source": "msn"
+        },
+        {
+          "id": "BB1jkgIv",
+          "type": "video",
+          "title": "NATO Member Deals Blow to China",
+          "abstract": "Romania, a NATO member, has rejected Chinese telecommunication giant Huawei's request to supply 5G equipment.",
+          "url": "https://www.msn.com/en-us/news/world/nato-member-deals-blow-to-china/vi-BB1jkgIv",
+          "locale": "en-us",
+          "videoMetadata": {
+            "playTime": 59,
+            "closedCaptions": [
+              {
+                "locale": "en-us",
+                "href": "https://prod-video-cms-amp-microsoft-com.akamaized.net/tenant/amp/entityid/BB1jkgIv?blobrefkey=closedcaptionen-us&$blob=1"
+              }
+            ]
+          },
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              { "topic": "wf_sentiment_positive", "score": 431 },
+              { "topic": "wf_sentiment_negative", "score": 9522 },
+              { "topic": "wf_sentiment_neutral", "score": 46 }
+            ],
+            "categories": []
+          },
+          "externalVideoFiles": [
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/75f788dd-8d46-4e3c-9f84-51940788fbb6/5ddda078-1bd4-4bd1-8559-d04412ba951b.mp4",
+              "contentType": "video/mp4",
+              "fileSize": 68584413
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/691d9d6b-cd19-4dd9-b828-552d9a52e396/5ddda078-1bd4-4bd1-8559-d04412ba.ism/manifest",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/691d9d6b-cd19-4dd9-b828-552d9a52e396/5ddda078-1bd4-4bd1-8559-d04412ba.ism/manifest(format=m3u8-aapl)",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/691d9d6b-cd19-4dd9-b828-552d9a52e396/5ddda078-1bd4-4bd1-8559-d04412ba.ism/manifest(format=mpd-time-csf)",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/691d9d6b-cd19-4dd9-b828-552d9a52e396/5ddda078-1bd4-4bd1-8559-d04412ba_6750.mp4",
+              "width": 1920,
+              "height": 1080,
+              "contentType": "video/mp4",
+              "fileSize": 50850114
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/691d9d6b-cd19-4dd9-b828-552d9a52e396/5ddda078-1bd4-4bd1-8559-d04412ba_3400.mp4",
+              "width": 1280,
+              "height": 720,
+              "contentType": "video/mp4",
+              "fileSize": 25803689
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/691d9d6b-cd19-4dd9-b828-552d9a52e396/5ddda078-1bd4-4bd1-8559-d04412ba_2250.mp4",
+              "width": 960,
+              "height": 540,
+              "contentType": "video/mp4",
+              "fileSize": 17492366
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/691d9d6b-cd19-4dd9-b828-552d9a52e396/5ddda078-1bd4-4bd1-8559-d04412ba_1500.mp4",
+              "width": 960,
+              "height": 540,
+              "contentType": "video/mp4",
+              "fileSize": 11904218
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/691d9d6b-cd19-4dd9-b828-552d9a52e396/5ddda078-1bd4-4bd1-8559-d04412ba_650.mp4",
+              "width": 640,
+              "height": 360,
+              "contentType": "video/mp4",
+              "fileSize": 5606155
+            }
+          ],
+          "publishedDateTime": "2024-03-04T21:44:41Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 1920,
+              "height": 1080,
+              "quality": 100,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1jke7q.img",
+              "attribution": "Provided by Newsweek",
+              "title": "NATO Member Deals Blow to China",
+              "source": "msn",
+              "colorSamples": [
+                { "isDarkMode": true, "hexColor": "#23325A" },
+                { "isDarkMode": false, "hexColor": "#F8E6DC" }
+              ]
+            }
+          ],
+          "colorSamples": [
+            { "isDarkMode": true, "hexColor": "#23325A" },
+            { "isDarkMode": false, "hexColor": "#F8E6DC" }
+          ],
+          "provider": {
+            "id": "AA2e5M",
+            "name": "Newsweek",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA12I8qo.img",
+            "profileId": "vid-0nurhdau9w9c0atm8pudgwwx007r59b75a7dnxb7irn5b22mrdga",
+            "lightThemeSVGLogo": {
+              "width": 47,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13D4or"
+            },
+            "darkThemeSVGLogo": {
+              "width": 47,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13D4or-dark"
+            }
+          },
+          "category": "news",
+          "reactionSummary": {
+            "totalCount": 750,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 688, "type": "upvote" },
+                { "totalCount": 62, "type": "downvote" }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 16,
+            "subCommentSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubCommentSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 9, "type": "comment" },
+                { "totalCount": 7, "type": "reply" }
+              ]
+            }
+          },
+          "commentStatus": "on",
+          "relevanceScore": 891.064857,
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+            "feedName": "News"
+          },
+          "topics": [
+            {
+              "label": "News",
+              "weight": 0.8465198874473572,
+              "feedId": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+              "locale": "en-us"
+            },
+            {
+              "label": "World News",
+              "weight": 0.8465198874473572,
+              "feedId": "Y_b88b0202-4577-4a24-8165-f0073e32f257",
+              "locale": "en-us"
+            },
+            {
+              "label": "World",
+              "weight": 0.8465198874473572,
+              "feedId": "Y_ee352f2b-a60f-41b3-9b10-4d54b4e7f3f9",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "ri": "334",
+          "recoId": "9m135DgplucK0q1ktu70O2iLwm",
+          "source": "msn"
+        },
+        {
+          "id": "BB1jkX1C",
+          "type": "article",
+          "title": "A Colorado ski town can't fill a job with a $167,000 salary because potential candidates can't afford to live there",
+          "abstract": "The city manager of Steamboat Springs, Colorado, told NBC News two candidates turned down a $167,000 job after they couldn't find a place to live.",
+          "readTimeMin": 2,
+          "url": "https://www.msn.com/en-us/money/companies/a-colorado-ski-town-can-t-fill-a-job-with-a-167-000-salary-because-potential-candidates-can-t-afford-to-live-there/ar-BB1jkX1C",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              { "topic": "wf_sentiment_positive", "score": 232 },
+              { "topic": "wf_sentiment_negative", "score": 9737 },
+              { "topic": "wf_sentiment_neutral", "score": 29 }
+            ],
+            "categories": [{ "topic": "companies", "score": 10000 }]
+          },
+          "publishedDateTime": "2024-03-05T03:42:58Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 1881,
+              "height": 1411,
+              "quality": 75,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1jkZDW.img",
+              "attribution": "Provided by Business Insider",
+              "title": "A Colorado ski town can't fill a job with a $167,000 salary because potential candidates can't afford to live there",
+              "source": "msn",
+              "colorSamples": [
+                { "isDarkMode": true, "hexColor": "#12587B" },
+                { "isDarkMode": false, "hexColor": "#C9D7E8" }
+              ]
+            }
+          ],
+          "colorSamples": [
+            { "isDarkMode": true, "hexColor": "#12587B" },
+            { "isDarkMode": false, "hexColor": "#C9D7E8" }
+          ],
+          "provider": {
+            "id": "AA28VO",
+            "name": "Business Insider",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1jWIH2.img",
+            "profileId": "vid-4qxq24u76gj8w0kuhjmbh4b4ywiern9gn5x28wpnh2qu5g8xb3ga",
+            "lightThemeSVGLogo": {
+              "width": 91,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13f2C0"
+            },
+            "darkThemeSVGLogo": {
+              "width": 91,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13f2C0-dark"
+            }
+          },
+          "category": "money",
+          "reactionSummary": {
+            "totalCount": 1610,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 1101, "type": "upvote" },
+                { "totalCount": 509, "type": "downvote" }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 371,
+            "subCommentSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubCommentSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 206, "type": "comment" },
+                { "totalCount": 165, "type": "reply" }
+              ]
+            }
+          },
+          "commentStatus": "on",
+          "relevanceScore": 890.064857,
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_d5d7002e-3d1e-453e-8b3a-cc05502992dc",
+            "feedName": "Travel"
+          },
+          "topics": [
+            {
+              "label": "Travel",
+              "weight": 0.9623268246650696,
+              "feedId": "Y_d5d7002e-3d1e-453e-8b3a-cc05502992dc",
+              "locale": "en-us"
+            },
+            {
+              "label": "Travel news",
+              "weight": 0.9623268246650696,
+              "feedId": "Y_d659302d-5ac4-460a-9baa-8c8684761110",
+              "locale": "en-us"
+            },
+            {
+              "label": "Real Estate",
+              "weight": 0.7537465691566467,
+              "feedId": "Y_c1881f6b-38f9-40a3-b046-b6b7c225837c",
+              "locale": "en-us"
+            },
+            {
+              "label": "Money",
+              "weight": 0.6945912837982178,
+              "feedId": "Y_f714b6e2-e9db-41d0-9b5f-b2e0a52f85da",
+              "locale": "en-us"
+            },
+            {
+              "label": "Business",
+              "weight": 0.6945912837982178,
+              "feedId": "Y_367b7be1-6bd2-44e7-95b3-b0d077ccc28d",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "ri": "338",
+          "recoId": "9m135DgplucK0q1ktu70O2iLwm",
+          "source": "msn",
+          "highlights": {
+            "$type": "System.Collections.Generic.List`1[[Msn.TagsDataModel.TagEntityLib.Highlight, Msn.TagsDataModel]], System.Private.CoreLib",
+            "$values": [
+              {
+                "text": "**Housing crisis in Steamboat Springs, Colorado**\n\n- Even high earners such as city employees and doctors are being priced out of the town due to skyrocketing housing costs.\n- The housing market is driven by the rise of remote work and the short-term rental market, which attract guests from cities and reduce the supply of homes for locals.\n- The town is facing a major housing battle, with disagreements over how to address the issues.\n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "BB1jntb6",
+          "type": "video",
+          "title": "Stuart Varney: AOC is getting a taste of what Democrats have been dishing out for decades",
+          "abstract": "'Vanrey & Co.' host Stuart Varney reacts to Alexandria Ocasio-Cortez getting harassed by pro-Palestinian protesters.",
+          "url": "https://www.msn.com/en-us/news/politics/stuart-varney-aoc-is-getting-a-taste-of-what-democrats-have-been-dishing-out-for-decades/vi-BB1jntb6",
+          "locale": "en-us",
+          "videoMetadata": {
+            "playTime": 107,
+            "closedCaptions": [
+              {
+                "locale": "en-us",
+                "href": "https://prod-video-cms-amp-microsoft-com.akamaized.net/tenant/amp/entityid/BB1jntb6?blobrefkey=closedcaptionen-us&$blob=1"
+              }
+            ]
+          },
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              { "topic": "wf_sentiment_positive", "score": 6796 },
+              { "topic": "wf_sentiment_negative", "score": 933 },
+              { "topic": "wf_sentiment_neutral", "score": 2269 }
+            ],
+            "categories": []
+          },
+          "externalVideoFiles": [
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/0c76905a-a9ce-4c7b-b993-07dda900086e/f910b938-719c-426d-bd4a-cea99a211a88.mp4",
+              "contentType": "video/mp4",
+              "fileSize": 36117409
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/d5bd0539-6c0d-4576-9e6c-81c8a948a7e7/f910b938-719c-426d-bd4a-cea99a21.ism/manifest",
+              "width": 1280,
+              "height": 720
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/d5bd0539-6c0d-4576-9e6c-81c8a948a7e7/f910b938-719c-426d-bd4a-cea99a21.ism/manifest(format=m3u8-aapl)",
+              "width": 1280,
+              "height": 720
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/d5bd0539-6c0d-4576-9e6c-81c8a948a7e7/f910b938-719c-426d-bd4a-cea99a21.ism/manifest(format=mpd-time-csf)",
+              "width": 1280,
+              "height": 720
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/d5bd0539-6c0d-4576-9e6c-81c8a948a7e7/f910b938-719c-426d-bd4a-cea99a21_3400.mp4",
+              "width": 1280,
+              "height": 720,
+              "contentType": "video/mp4",
+              "fileSize": 45926991
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/d5bd0539-6c0d-4576-9e6c-81c8a948a7e7/f910b938-719c-426d-bd4a-cea99a21_2250.mp4",
+              "width": 960,
+              "height": 540,
+              "contentType": "video/mp4",
+              "fileSize": 31053266
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/d5bd0539-6c0d-4576-9e6c-81c8a948a7e7/f910b938-719c-426d-bd4a-cea99a21_1500.mp4",
+              "width": 960,
+              "height": 540,
+              "contentType": "video/mp4",
+              "fileSize": 21263098
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/d5bd0539-6c0d-4576-9e6c-81c8a948a7e7/f910b938-719c-426d-bd4a-cea99a21_650.mp4",
+              "width": 640,
+              "height": 360,
+              "contentType": "video/mp4",
+              "fileSize": 10230369
+            }
+          ],
+          "publishedDateTime": "2024-03-05T18:13:32Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 1280,
+              "height": 720,
+              "quality": 89,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1jnvSB.img",
+              "attribution": "Provided by Fox Business",
+              "title": "Stuart Varney: AOC is getting a taste of what Democrats have been dishing out for decades",
+              "focalRegion": { "x1": 529, "x2": 699, "y1": 192, "y2": 362 },
+              "source": "msn",
+              "colorSamples": [
+                { "isDarkMode": true, "hexColor": "#334A75" },
+                { "isDarkMode": false, "hexColor": "#F6F7F7" }
+              ]
+            }
+          ],
+          "colorSamples": [
+            { "isDarkMode": true, "hexColor": "#334A75" },
+            { "isDarkMode": false, "hexColor": "#F6F7F7" }
+          ],
+          "provider": {
+            "id": "AAnS48",
+            "name": "Fox Business",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA3liuz.img",
+            "profileId": "vid-p6f68m2eyn4yw440eay93ev7udy0pg3x2fe9iytwwhx9h3fpin3a",
+            "lightThemeSVGLogo": {
+              "width": 24,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA12QBZG"
+            },
+            "darkThemeSVGLogo": {
+              "width": 24,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA12QBZG-dark"
+            }
+          },
+          "category": "news",
+          "reactionSummary": {
+            "totalCount": 590,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 536, "type": "upvote" },
+                { "totalCount": 54, "type": "downvote" }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 41,
+            "subCommentSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubCommentSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 35, "type": "comment" },
+                { "totalCount": 6, "type": "reply" }
+              ]
+            }
+          },
+          "commentStatus": "on",
+          "relevanceScore": 889.064857,
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+            "feedName": "News"
+          },
+          "topics": [
+            {
+              "label": "News",
+              "weight": 0.9550169706344604,
+              "feedId": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "ri": "338",
+          "recoId": "9m135DgplucK0q1ktu70O2iLwm",
+          "source": "msn"
+        },
+        {
+          "id": "BB1jk6dv",
+          "type": "video",
+          "title": "Is Trump out of cash? After losing case, Trump loses odd request to post a portion of bond",
+          "abstract": "Donald Trump might not have the funds to cover his $450 million fraud loss and related bills, Ari Melber reports. (Check out The Beat's playlist: <a href=\"https://msnbc.com/ari\">https://msnbc.com/ari</a> Connect with Ari Melber: <a href=\"https://www.instagram.com/arimelber)\">https://www.instagram.com/arimelber)</a>",
+          "url": "https://www.msn.com/en-us/money/markets/is-trump-out-of-cash-after-losing-case-trump-loses-odd-request-to-post-a-portion-of-bond/vi-BB1jk6dv",
+          "locale": "en-us",
+          "videoMetadata": {
+            "playTime": 311,
+            "closedCaptions": [
+              {
+                "locale": "en-us",
+                "href": "https://prod-video-cms-amp-microsoft-com.akamaized.net/tenant/amp/entityid/BB1jk6dv?blobrefkey=closedcaptionen-us&$blob=1"
+              }
+            ]
+          },
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              { "topic": "wf_sentiment_positive", "score": 121 },
+              { "topic": "wf_sentiment_negative", "score": 9814 },
+              { "topic": "wf_sentiment_neutral", "score": 63 }
+            ],
+            "categories": [{ "topic": "markets", "score": 10000 }]
+          },
+          "externalVideoFiles": [
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/a6706f70-c37a-4b10-91d2-3acbaa847b06/35a0f083-b0df-4f58-a940-f7529e36a0ff.mp4",
+              "contentType": "video/mp4",
+              "fileSize": 161947412
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/bc7f92bd-6b70-4a25-9f51-43efaa910091/35a0f083-b0df-4f58-a940-f7529e36.ism/manifest",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/bc7f92bd-6b70-4a25-9f51-43efaa910091/35a0f083-b0df-4f58-a940-f7529e36.ism/manifest(format=m3u8-aapl)",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/bc7f92bd-6b70-4a25-9f51-43efaa910091/35a0f083-b0df-4f58-a940-f7529e36.ism/manifest(format=mpd-time-csf)",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/bc7f92bd-6b70-4a25-9f51-43efaa910091/35a0f083-b0df-4f58-a940-f7529e36_6750.mp4",
+              "width": 1920,
+              "height": 1080,
+              "contentType": "video/mp4",
+              "fileSize": 265903415
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/bc7f92bd-6b70-4a25-9f51-43efaa910091/35a0f083-b0df-4f58-a940-f7529e36_3400.mp4",
+              "width": 1280,
+              "height": 720,
+              "contentType": "video/mp4",
+              "fileSize": 136116073
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/bc7f92bd-6b70-4a25-9f51-43efaa910091/35a0f083-b0df-4f58-a940-f7529e36_2250.mp4",
+              "width": 960,
+              "height": 540,
+              "contentType": "video/mp4",
+              "fileSize": 91467408
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/bc7f92bd-6b70-4a25-9f51-43efaa910091/35a0f083-b0df-4f58-a940-f7529e36_1500.mp4",
+              "width": 960,
+              "height": 540,
+              "contentType": "video/mp4",
+              "fileSize": 62400184
+            },
+            {
+              "url": "https://prod-streaming-video-msn-com.akamaized.net/bc7f92bd-6b70-4a25-9f51-43efaa910091/35a0f083-b0df-4f58-a940-f7529e36_650.mp4",
+              "width": 640,
+              "height": 360,
+              "contentType": "video/mp4",
+              "fileSize": 29488215
+            }
+          ],
+          "publishedDateTime": "2024-03-04T20:57:52Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 1920,
+              "height": 1080,
+              "quality": 89,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1jk29X.img",
+              "attribution": "Provided by MSNBC",
+              "title": "Is Trump out of cash? After losing case, Trump loses odd request to post a portion of bond",
+              "focalRegion": { "x1": 866, "x2": 1820, "y1": 202, "y2": 758 },
+              "source": "msn",
+              "colorSamples": [
+                { "isDarkMode": true, "hexColor": "#323045" },
+                { "isDarkMode": false, "hexColor": "#D2D3DF" }
+              ]
+            }
+          ],
+          "colorSamples": [
+            { "isDarkMode": true, "hexColor": "#323045" },
+            { "isDarkMode": false, "hexColor": "#D2D3DF" }
+          ],
+          "provider": {
+            "id": "BBpgaEl",
+            "name": "MSNBC",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1lSnwK.img",
+            "profileId": "vid-qbn78nfcucymmg4y2cx0ch00pabqrj0gguv3ejj99rdjt5rvxiks",
+            "lightThemeSVGLogo": {
+              "width": 84,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13eNIw"
+            },
+            "darkThemeSVGLogo": {
+              "width": 84,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13eNIw-dark"
+            }
+          },
+          "category": "money",
+          "reactionSummary": {
+            "totalCount": 1265,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 962, "type": "upvote" },
+                { "totalCount": 301, "type": "downvote" },
+                { "totalCount": 1, "type": "surprised" },
+                { "totalCount": 1, "type": "thinking" }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 180,
+            "subCommentSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubCommentSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 102, "type": "comment" },
+                { "totalCount": 78, "type": "reply" }
+              ]
+            }
+          },
+          "commentStatus": "on",
+          "relevanceScore": 888.064857,
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+            "feedName": "News"
+          },
+          "topics": [
+            {
+              "label": "News",
+              "weight": 0.9862093329429626,
+              "feedId": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "ri": "313",
+          "recoId": "9m135DgplucK0q1ktu70O2iLwm",
+          "source": "msn"
+        },
+        {
+          "id": "BB1jnh4l",
+          "type": "article",
+          "title": "Trump on war in Gaza: ‘You’ve got to finish the problem’",
+          "abstract": "Former President Trump on Tuesday said Israel has to “finish the problem” in its war against Hamas in Gaza as Israeli leaders face mounting criticism for their handling of the war. Trump called into “Fox and Friends” ahead of Super Tuesday voting, and co-host Brian Kilmeade asked the former president whether he was “on board”…",
+          "readTimeMin": 2,
+          "url": "https://www.msn.com/en-us/news/politics/trump-on-war-in-gaza-you-ve-got-to-finish-the-problem/ar-BB1jnh4l",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              { "topic": "wf_sentiment_positive", "score": 2011 },
+              { "topic": "wf_sentiment_negative", "score": 282 },
+              { "topic": "wf_sentiment_neutral", "score": 7705 }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-03-05T15:39:27Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 900,
+              "height": 505,
+              "quality": 81,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1hZg2m.img",
+              "attribution": "Provided by The Hill",
+              "title": "Mary Trump asks why ‘f—ing maniac’ uncle is allowed to ‘roam free’",
+              "focalRegion": { "x1": 314, "x2": 534, "y1": 100, "y2": 320 },
+              "source": "msn",
+              "colorSamples": [
+                { "isDarkMode": true, "hexColor": "#23232D" },
+                { "isDarkMode": false, "hexColor": "#FFE2D5" }
+              ]
+            }
+          ],
+          "colorSamples": [
+            { "isDarkMode": true, "hexColor": "#23232D" },
+            { "isDarkMode": false, "hexColor": "#FFE2D5" }
+          ],
+          "provider": {
+            "id": "BB5lUEX",
+            "name": "The Hill",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBUvpML.img",
+            "profileId": "vid-mxrmyqpv75gb9m6ws7nujhjri5me6stfjj4mxyvwn8u04btv5r3s",
+            "lightThemeSVGLogo": {
+              "width": 86,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA12QGBm"
+            },
+            "darkThemeSVGLogo": {
+              "width": 86,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA12QGBm-dark"
+            }
+          },
+          "category": "news",
+          "reactionSummary": {
+            "totalCount": 148,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 78, "type": "upvote" },
+                { "totalCount": 70, "type": "downvote" }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": { "totalCount": 0 },
+          "commentStatus": "disabled",
+          "relevanceScore": 887.064857,
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_95015827-5a31-4693-b0ee-65af3cf5a788",
+            "feedName": "Israel-Hamas war"
+          },
+          "topics": [
+            {
+              "label": "Israel-Hamas war",
+              "weight": 1.0,
+              "feedId": "Y_95015827-5a31-4693-b0ee-65af3cf5a788",
+              "locale": "en-us"
+            },
+            {
+              "label": "News",
+              "weight": 0.8241176009178162,
+              "feedId": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "ri": "334",
+          "recoId": "9m135DgplucK0q1ktu70O2iLwm",
+          "source": "msn"
+        },
+        {
+          "id": "BB1jn3EZ",
+          "type": "article",
+          "title": "Hague court issues arrest warrants for Russian commanders of long-range aviation and Black Sea Fleet",
+          "abstract": "The Hague Court today issued arrest warrants for the Commander of the Long-Range Aviation of the Aerospace Force Sergei Kobylash and the Commander of the Black Sea Fleet Viktor Sokolov, according to the International Criminal Court. \"Pre-Trial Chamber II of the International Criminal Court ... issued warrants of arrest for two individuals, Mr. Serg...",
+          "readTimeMin": 3,
+          "url": "https://www.msn.com/en-us/news/world/hague-court-issues-arrest-warrants-for-russian-commanders-of-long-range-aviation-and-black-sea-fleet/ar-BB1jn3EZ",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              { "topic": "wf_sentiment_positive", "score": 1783 },
+              { "topic": "wf_sentiment_negative", "score": 3743 },
+              { "topic": "wf_sentiment_neutral", "score": 4472 }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-03-05T16:01:45Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 800,
+              "height": 505,
+              "quality": 72,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1jn7Mx.img",
+              "attribution": "RBC-Ukraine",
+              "title": "Sergei Kobylash and Viktor Sokolov (RBC-Ukraine collage)",
+              "caption": "Sergei Kobylash and Viktor Sokolov (RBC-Ukraine collage)",
+              "focalRegion": { "x1": 128, "x2": 667, "y1": 83, "y2": 231 },
+              "source": "msn",
+              "colorSamples": [
+                { "isDarkMode": true, "hexColor": "#205874" },
+                { "isDarkMode": false, "hexColor": "#C8D6E2" }
+              ]
+            }
+          ],
+          "colorSamples": [
+            { "isDarkMode": true, "hexColor": "#205874" },
+            { "isDarkMode": false, "hexColor": "#C8D6E2" }
+          ],
+          "provider": {
+            "id": "AA1g6fol",
+            "name": "RBC Ukraine",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1g6fvS.img",
+            "profileId": "vid-uq526uutgxbrfet2ba93000875b4vq0m40bmgqjpf2skcis6iv9s"
+          },
+          "category": "news",
+          "reactionSummary": {
+            "totalCount": 177,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 158, "type": "upvote" },
+                { "totalCount": 19, "type": "downvote" }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": { "totalCount": 0 },
+          "commentStatus": "disabled",
+          "relevanceScore": 886.064857,
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_ee352f2b-a60f-41b3-9b10-4d54b4e7f3f9",
+            "feedName": "World"
+          },
+          "topics": [
+            {
+              "label": "World",
+              "weight": 0.8754686713218689,
+              "feedId": "Y_ee352f2b-a60f-41b3-9b10-4d54b4e7f3f9",
+              "locale": "en-us"
+            },
+            {
+              "label": "News",
+              "weight": 0.8754686713218689,
+              "feedId": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+              "locale": "en-us"
+            },
+            {
+              "label": "World News",
+              "weight": 0.8754686713218689,
+              "feedId": "Y_b88b0202-4577-4a24-8165-f0073e32f257",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "ri": "334",
+          "recoId": "9m135DgplucK0q1ktu70O2iLwm",
+          "source": "msn"
+        },
+        {
+          "id": "BB1jlRXf",
+          "type": "article",
+          "title": "Putin Ally Says Neighboring Country Will Not Exist in Five Years",
+          "abstract": "Margarita Simonyan said the Armenian prime minister's criticism of Moscow is leading his nation to complete destruction.",
+          "readTimeMin": 3,
+          "url": "https://www.msn.com/en-us/news/world/putin-ally-says-neighboring-country-will-not-exist-in-five-years/ar-BB1jlRXf",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              { "topic": "wf_sentiment_positive", "score": 243 },
+              { "topic": "wf_sentiment_negative", "score": 9595 },
+              { "topic": "wf_sentiment_neutral", "score": 161 }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-03-05T09:34:09Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 2500,
+              "height": 1775,
+              "quality": 89,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1jm48v.img",
+              "attribution": "Getty Images",
+              "title": "Editor-in chief of RT Margarita Simonyan",
+              "caption": "Editor-in chief of RT Margarita Simonyan speaks during a meeting of Vladimir Putin's supporters ahead of 2024 Presidential Elections, on January 31, 2024 in Moscow, Russia.",
+              "focalRegion": { "x1": 950, "x2": 1648, "y1": 421, "y2": 1119 },
+              "source": "msn",
+              "colorSamples": [
+                { "isDarkMode": true, "hexColor": "#2C495C" },
+                { "isDarkMode": false, "hexColor": "#A8ECF1" }
+              ]
+            }
+          ],
+          "colorSamples": [
+            { "isDarkMode": true, "hexColor": "#2C495C" },
+            { "isDarkMode": false, "hexColor": "#A8ECF1" }
+          ],
+          "provider": {
+            "id": "AA2e5M",
+            "name": "Newsweek",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA12I8qo.img",
+            "profileId": "vid-0nurhdau9w9c0atm8pudgwwx007r59b75a7dnxb7irn5b22mrdga",
+            "lightThemeSVGLogo": {
+              "width": 47,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13D4or"
+            },
+            "darkThemeSVGLogo": {
+              "width": 47,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13D4or-dark"
+            }
+          },
+          "category": "news",
+          "reactionSummary": {
+            "totalCount": 664,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 371, "type": "downvote" },
+                { "totalCount": 292, "type": "upvote" },
+                { "totalCount": 1, "type": "sad" }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 253,
+            "subCommentSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubCommentSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 86, "type": "comment" },
+                { "totalCount": 167, "type": "reply" }
+              ]
+            }
+          },
+          "commentStatus": "on",
+          "relevanceScore": 885.064857,
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_ee352f2b-a60f-41b3-9b10-4d54b4e7f3f9",
+            "feedName": "World"
+          },
+          "topics": [
+            {
+              "label": "World",
+              "weight": 0.6274970173835754,
+              "feedId": "Y_ee352f2b-a60f-41b3-9b10-4d54b4e7f3f9",
+              "locale": "en-us"
+            },
+            {
+              "label": "News",
+              "weight": 0.6274970173835754,
+              "feedId": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+              "locale": "en-us"
+            },
+            {
+              "label": "World News",
+              "weight": 0.6274970173835754,
+              "feedId": "Y_b88b0202-4577-4a24-8165-f0073e32f257",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "ri": "334,338",
+          "recoId": "9m135DgplucK0q1ktu70O2iLwm",
+          "source": "msn",
+          "highlights": {
+            "$type": "System.Collections.Generic.List`1[[Msn.TagsDataModel.TagEntityLib.Highlight, Msn.TagsDataModel]], System.Private.CoreLib",
+            "$values": [
+              {
+                "text": "The article reports on ***Margarita Simonyan***, the editor-in-chief of the Kremlin mouthpiece **RT**, and her harsh criticism of **Armenian Prime Minister Nikol Pashinyan**. She called him a **\"traitor\"** to the Armenian people and said that **\"there will be no Armenia in five years\"** if he remains in power. She blamed him for Armenia's suspension from the **Collective Security Treaty Organization (CSTO)**, a Moscow-led security bloc, and said that **\"Armenia will not exist at all\"** if voters continue to support him. She made her remarks at the **World Youth Festival** in Russia's Krasnodar region, where she received applause from the audience. The article also provides context and background on the ongoing conflict between **Armenia and Azerbaijan** over the **Nagorno-Karabakh region**, a breakaway territory recognized internationally as part of Azerbaijan but populated by ethnic Armenians. It explains how Armenia's participation in the CSTO has been an issue for years, especially after Azerbaijan launched an offensive in the region last September, followed by the exodus of most of the Armenian population. It also highlights the political and military implications of Armenia stepping away from the CSTO, which is seen as Russia's equivalent to NATO. "
+              }
+            ]
+          }
+        },
+        {
+          "id": "BB1jmelV",
+          "type": "article",
+          "title": "'Working my tail-end off just to get by’: This Walmart worker blasted older Americans for calling young folks lazy — blamed them for 'creating' the inflation crisis, ruining the economy",
+          "abstract": "The video has struck a chord.",
+          "readTimeMin": 4,
+          "url": "https://www.msn.com/en-us/money/markets/working-my-tail-end-off-just-to-get-by-this-walmart-worker-blasted-older-americans-for-calling-young-folks-lazy-blamed-them-for-creating-the-inflation-crisis-ruining-the-economy/ar-BB1jmelV",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [{ "stockId": "a25ya2", "score": 80000098 }],
+            "sentimentRatings": [
+              { "topic": "wf_sentiment_positive", "score": 496 },
+              { "topic": "wf_sentiment_negative", "score": 9367 },
+              { "topic": "wf_sentiment_neutral", "score": 136 }
+            ],
+            "categories": [{ "topic": "markets", "score": 10000 }]
+          },
+          "publishedDateTime": "2024-03-05T11:00:00Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 728,
+              "height": 400,
+              "quality": 70,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1jmgCo.img",
+              "attribution": "@chailynt / TikTok",
+              "title": "Walmart employee fires back at claim Gen Z is lazy",
+              "caption": "Walmart employee fires back at claim Gen Z is lazy",
+              "focalRegion": { "x1": 311, "x2": 453, "y1": 111, "y2": 253 },
+              "source": "msn",
+              "colorSamples": [
+                { "isDarkMode": true, "hexColor": "#1C2423" },
+                { "isDarkMode": false, "hexColor": "#E7D7C5" }
+              ]
+            }
+          ],
+          "colorSamples": [
+            { "isDarkMode": true, "hexColor": "#1C2423" },
+            { "isDarkMode": false, "hexColor": "#E7D7C5" }
+          ],
+          "provider": {
+            "id": "AAYKlWL",
+            "name": "Moneywise",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1jly9f.img",
+            "profileId": "cid-628f54d09fe47d89"
+          },
+          "category": "money",
+          "reactionSummary": {
+            "totalCount": 2227,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 1399, "type": "downvote" },
+                { "totalCount": 827, "type": "upvote" },
+                { "totalCount": 1, "type": "angry" }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 1304,
+            "subCommentSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubCommentSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 757, "type": "comment" },
+                { "totalCount": 547, "type": "reply" }
+              ]
+            }
+          },
+          "commentStatus": "on",
+          "relevanceScore": 884.064857,
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_367b7be1-6bd2-44e7-95b3-b0d077ccc28d",
+            "feedName": "Business"
+          },
+          "topics": [
+            {
+              "label": "Business",
+              "weight": 0.8081977963447571,
+              "feedId": "Y_367b7be1-6bd2-44e7-95b3-b0d077ccc28d",
+              "locale": "en-us"
+            },
+            {
+              "label": "Money",
+              "weight": 0.8081977963447571,
+              "feedId": "Y_f714b6e2-e9db-41d0-9b5f-b2e0a52f85da",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "ri": "338",
+          "recoId": "9m135DgplucK0q1ktu70O2iLwm",
+          "source": "msn",
+          "highlights": {
+            "$type": "System.Collections.Generic.List`1[[Msn.TagsDataModel.TagEntityLib.Highlight, Msn.TagsDataModel]], System.Private.CoreLib",
+            "$values": [
+              {
+                "text": "The article explores the economic challenges faced by ***Gen Z***, especially those working full-time jobs at **Walmart**, and how they are often blamed for the current state of the economy. It cites a viral video by **TikTok user @chailynt**, who works at Walmart and expresses her frustration with the media's portrayal of Gen Z as lazy and unwilling to work 9-5 jobs. She shares her personal experience of working **40 hours a week** and still struggling to afford basic living expenses, and challenges the older generations for letting the economy \"run to hell\" and placing the burden on Gen Z. She argues that Gen Z did not cause the inflation crisis, but rather is trying to fix the mistakes of previous generations. The article provides data from the **U.S. Census Bureau** to show how the housing market, wages, and other essentials have changed significantly over the past 20 years, making it harder for young adults to afford basic needs and achieve financial stability. "
+              }
+            ]
+          }
+        },
+        {
+          "id": "BB1jnKfv",
+          "type": "article",
+          "title": "How Caitlin Clark pulled the boldest NIL deal in women's basketball",
+          "abstract": "Caitlin Clark, who will play at Gainbridge Fieldhouse, began negotiating an NIL deal with Gainbridge before the Fever won the 2024 WNBA Draft lottery.",
+          "readTimeMin": 6,
+          "url": "https://www.msn.com/en-us/sports/other/how-caitlin-clark-pulled-the-boldest-nil-deal-in-women-s-basketball/ar-BB1jnKfv",
+          "locale": "en-us",
+          "isLocalContent": true,
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              { "topic": "wf_sentiment_positive", "score": 9759 },
+              { "topic": "wf_sentiment_negative", "score": 46 },
+              { "topic": "wf_sentiment_neutral", "score": 194 }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-03-05T19:19:56Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 2400,
+              "height": 1638,
+              "quality": 75,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1jnf9I.img",
+              "attribution": "Jenna Watson/IndyStar",
+              "title": "Iowa Hawkeye Caitlin Clark (22) and head coach Lisa Bluder celebrate after the team defeated the Indiana Hoosiers for the BIG Ten women's championship title Sunday, March 6, 2022, at Gainbridge Fieldhouse in Indianapolis. The final score was 74-67.",
+              "caption": "Iowa Hawkeye Caitlin Clark (22) and head coach Lisa Bluder celebrate after the team defeated the Indiana Hoosiers for the BIG Ten women's championship title Sunday, March 6, 2022, at Gainbridge Fieldhouse in Indianapolis. The final score was 74-67.",
+              "focalRegion": { "x1": 412, "x2": 617, "y1": 350, "y2": 555 },
+              "source": "msn",
+              "colorSamples": [
+                { "isDarkMode": true, "hexColor": "#181F27" },
+                { "isDarkMode": false, "hexColor": "#EAEFF2" }
+              ]
+            }
+          ],
+          "colorSamples": [
+            { "isDarkMode": true, "hexColor": "#181F27" },
+            { "isDarkMode": false, "hexColor": "#EAEFF2" }
+          ],
+          "provider": {
+            "id": "AAdapkM",
+            "name": "USA Today Sports (Video)",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB4kwAp.img",
+            "profileId": "vid-7eygsgpek93wavyp8w5g7mv0uv8bh4nn939ex8j80npwycbqd8ks",
+            "lightThemeSVGLogo": {
+              "width": 25,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13gK4J"
+            },
+            "darkThemeSVGLogo": {
+              "width": 25,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13gK4J-dark"
+            }
+          },
+          "category": "sports",
+          "reactionSummary": {
+            "totalCount": 50,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 35, "type": "upvote" },
+                { "totalCount": 15, "type": "downvote" }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 5,
+            "subCommentSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubCommentSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [{ "totalCount": 5, "type": "comment" }]
+            }
+          },
+          "commentStatus": "on",
+          "relevanceScore": 883.064857,
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_b09e3e40-000d-454d-87ef-96631d7c9e7c",
+            "feedName": "Sports"
+          },
+          "topics": [
+            {
+              "label": "Sports",
+              "subLabels": ["Preview"],
+              "weight": 0.9948039054870605,
+              "feedId": "Y_b09e3e40-000d-454d-87ef-96631d7c9e7c",
+              "locale": "en-us"
+            },
+            {
+              "label": "NBA",
+              "subLabels": ["Preview"],
+              "weight": 0.949999988079071,
+              "feedId": "Y_15d6406e-7f99-4e5f-9404-93a90865cbaf",
+              "locale": "en-us"
+            },
+            {
+              "label": "Sports news",
+              "subLabels": ["Preview"],
+              "weight": 0.8126006722450256,
+              "feedId": "Y_cf67a66a-37a7-4248-a54b-91afc8129ef7",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "ri": "338",
+          "recoId": "9m135DgplucK0q1ktu70O2iLwm",
+          "source": "msn"
+        },
+        {
+          "id": "BB1jmyiI",
+          "type": "article",
+          "title": "After being shot down by a judge, Kari Lake withdraws appeal on ballot return envelopes",
+          "abstract": "Kari Lake had dropped her notice to review the envelopes that more than 1 million Maricopa County voters used to return their ballots in 2022.",
+          "readTimeMin": 3,
+          "url": "https://www.msn.com/en-us/news/politics/after-being-shot-down-by-a-judge-kari-lake-withdraws-appeal-on-ballot-return-envelopes/ar-BB1jmyiI",
+          "locale": "en-us",
+          "isLocalContent": true,
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              { "topic": "wf_sentiment_positive", "score": 243 },
+              { "topic": "wf_sentiment_negative", "score": 9613 },
+              { "topic": "wf_sentiment_neutral", "score": 143 }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-03-05T13:05:29Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 1024,
+              "height": 683,
+              "quality": 75,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1jmArd.img",
+              "attribution": "Pablo Martinez Monsivais/Associated Press",
+              "title": "Kari Lake speaks during a television interview before Republican presidential candidate former President Donald Trump arrives at a primary election night party in Nashua, New Hampshire, on Jan. 23, 2024.",
+              "caption": "Kari Lake speaks during a television interview before Republican presidential candidate former President Donald Trump arrives at a primary election night party in Nashua, New Hampshire, on Jan. 23, 2024.",
+              "focalRegion": { "x1": 558, "x2": 660, "y1": 173, "y2": 275 },
+              "source": "msn",
+              "colorSamples": [
+                { "isDarkMode": true, "hexColor": "#624B4E" },
+                { "isDarkMode": false, "hexColor": "#C8D8E1" }
+              ]
+            }
+          ],
+          "colorSamples": [
+            { "isDarkMode": true, "hexColor": "#624B4E" },
+            { "isDarkMode": false, "hexColor": "#C8D8E1" }
+          ],
+          "provider": {
+            "id": "AAzjKCM",
+            "name": "Arizona Republic",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAzME7S.img",
+            "profileId": "vid-awp30v0teytdyx2rrt8nb6s9t0cf02hjfrm0vrx2krhe8snxqahs",
+            "lightThemeSVGLogo": {
+              "width": 76,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13gMhz"
+            },
+            "darkThemeSVGLogo": {
+              "width": 76,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13gMhz-dark"
+            }
+          },
+          "category": "news",
+          "reactionSummary": {
+            "totalCount": 94,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 76, "type": "upvote" },
+                { "totalCount": 18, "type": "downvote" }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 18,
+            "subCommentSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubCommentSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 15, "type": "comment" },
+                { "totalCount": 3, "type": "reply" }
+              ]
+            }
+          },
+          "commentStatus": "on",
+          "relevanceScore": 882.064857,
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+            "feedName": "News"
+          },
+          "topics": [
+            {
+              "label": "News",
+              "weight": 0.9861598014831543,
+              "feedId": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "ri": "301,316",
+          "recoId": "9m135DgplucK0q1ktu70O2iLwm",
+          "source": "msn",
+          "highlights": {
+            "$type": "System.Collections.Generic.List`1[[Msn.TagsDataModel.TagEntityLib.Highlight, Msn.TagsDataModel]], System.Private.CoreLib",
+            "$values": [
+              {
+                "text": "The article reports on ***Kari Lake's*** decision to **withdraw her notice of appeal** on the *ballot return envelopes* that were used by more than *1 million Maricopa County voters* in the 2022 governor's race. Lake, a *Republican Senate candidate*, had sought to review the envelopes under the **Arizona Public Records Law**, claiming they contained voter signatures that could reveal fraud. However, a **Maricopa County Superior Court judge** had **denied her request** and affirmed the county recorder's decision to keep the envelopes confidential under a specific exemption for signatures. Lake's withdrawal ends one of her court cases related to her **17,000-vote loss** to Democrat *Gov. Katie Hobbs*. Lake had previously labeled the 2022 elections as *\"rigged\"* and *\"stolen\"*, and vowed to take her case to the **U.S. Supreme Court**. The county recorder, *Stephen Richer*, praised the court's decision and urged voters to **turn in their early ballots** before the March 19 presidential preference election. "
+              }
+            ]
+          }
+        },
+        {
+          "id": "BB1jnwNF",
+          "type": "article",
+          "title": "Why a Fox News pundit may not have heard bad news about Trump",
+          "abstract": "The network consistently reports on bad news for Trump far less often than its competitors.",
+          "readTimeMin": 4,
+          "url": "https://www.msn.com/en-us/news/politics/why-a-fox-news-pundit-may-not-have-heard-bad-news-about-trump/ar-BB1jnwNF",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              { "topic": "wf_sentiment_positive", "score": 883 },
+              { "topic": "wf_sentiment_negative", "score": 285 },
+              { "topic": "wf_sentiment_neutral", "score": 8830 }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-03-05T17:18:49Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 4206,
+              "height": 2804,
+              "quality": 80,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1iPBgD.img",
+              "attribution": "Jabin Botsford/The Washington Post",
+              "title": "Trump speaks with moderator Laura Ingraham during a Fox News Channel town hall in Greenville, S.C., on Tuesday.",
+              "caption": "Trump speaks with moderator Laura Ingraham during a Fox News Channel town hall in Greenville, S.C., on Tuesday.",
+              "focalRegion": { "x1": 3004, "x2": 3377, "y1": 552, "y2": 925 },
+              "source": "msn",
+              "colorSamples": [
+                { "isDarkMode": true, "hexColor": "#283544" },
+                { "isDarkMode": false, "hexColor": "#EAD3D8" }
+              ]
+            }
+          ],
+          "colorSamples": [
+            { "isDarkMode": true, "hexColor": "#283544" },
+            { "isDarkMode": false, "hexColor": "#EAD3D8" }
+          ],
+          "provider": {
+            "id": "AA2ed1",
+            "name": "The Washington Post",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAyxkRJ.img",
+            "profileId": "vid-80rqc6nyixce6picdgj2xqky37nwxmnxb6qbymrpww5gb78xhwns",
+            "lightThemeSVGLogo": {
+              "width": 79,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13pwi3"
+            },
+            "darkThemeSVGLogo": {
+              "width": 79,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13pwi3-dark"
+            }
+          },
+          "category": "news",
+          "reactionSummary": {
+            "totalCount": 425,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 251, "type": "upvote" },
+                { "totalCount": 174, "type": "downvote" }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 238,
+            "subCommentSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubCommentSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                { "totalCount": 78, "type": "comment" },
+                { "totalCount": 160, "type": "reply" }
+              ]
+            }
+          },
+          "commentStatus": "on",
+          "relevanceScore": 881.064857,
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_bced654c-7e2e-4c63-acb4-f3b3b89bd4e3",
+            "feedName": "Politics"
+          },
+          "topics": [
+            {
+              "label": "Politics",
+              "weight": 0.8547536134719849,
+              "feedId": "Y_bced654c-7e2e-4c63-acb4-f3b3b89bd4e3",
+              "locale": "en-us"
+            },
+            {
+              "label": "News",
+              "weight": 0.8547536134719849,
+              "feedId": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "ri": "338",
+          "recoId": "9m135DgplucK0q1ktu70O2iLwm",
+          "source": "msn"
+        }
+      ]
+    }
+  ],
+  "feed": {}
+}

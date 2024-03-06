@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 import ReactJson from "react-json-view";
 import TrafficEventTable from "./TrafficEventTable";
@@ -7,9 +7,19 @@ import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
-import { Button, TextField } from "@mui/material";
+import {
+  Button,
+  FormControl,
+  InputLabel,
+  List,
+  MenuItem,
+  Select,
+  TextField,
+} from "@mui/material";
 import { toast } from "react-toastify";
 import logo from "../logo.svg";
+import TempTable from "./TempTable";
+import MuiTable from "./MuiTable";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -23,6 +33,32 @@ const FeedFetcher = () => {
   const [url, setUrl] = useState("");
   const [isloading, setIsLoading] = useState(false);
   const [feedData, setFeedData] = useState(null);
+
+  const [record, setRecord] = useState(null);
+  const [list, setList] = useState(null);
+
+  const [selected, setSelected] = React.useState(null);
+  const [id, setID] = useState("");
+  const [idlist, setIDlist] = useState("");
+
+  const filetered = (obj) => {
+    console.log("here", obj, typeof obj);
+
+    if (typeof obj === "string" || typeof obj === "number") {
+      console.log(selected);
+      setList([selected]);
+      setIDlist(["None"]);
+      setRecord([obj]);
+      // setList(selected);
+      return;
+    }
+    if (obj.length === 0) return;
+    const temp = Object.keys(obj);
+    setRecord(obj);
+    setList(temp);
+    if (temp[0] === "0") setIDlist(Object.keys(obj[temp[0]]));
+    console.log(obj, temp);
+  };
 
   const sendUrlToServer = async () => {
     if (url.length === 0) {
@@ -40,8 +76,11 @@ const FeedFetcher = () => {
           url: url,
         }
       );
+      console.log(response.data);
+      console.log(Object.keys(response.data));
+      filetered(response.data);
       setFeedData(response.data);
-      console.log(JSON.stringify(response.data));
+      // console.log(filetered(response.data));
       setIsLoading(false);
     } catch (error) {
       alert("Invalid URL or Internal Server Error");
@@ -50,6 +89,14 @@ const FeedFetcher = () => {
       setFeedData();
     }
   };
+
+  useEffect(() => {
+    console.log(selected);
+    const temp = record ? record[selected] : null;
+    console.log(temp);
+    if (temp) filetered(temp);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selected]);
 
   return (
     <Box bgcolor="#fff">
@@ -84,12 +131,62 @@ const FeedFetcher = () => {
         <Grid container spacing={2} mt={3}>
           <Grid item xs={4}>
             <Item>
+              <Box m={3}>
+                <Button
+                  variant="contained"
+                  color="primary"
+                  style={{ margin: "10px" }}
+                  onClick={() => {
+                    setID(null);
+                    filetered(feedData);
+                  }}
+                >
+                  Reset
+                </Button>
+                <FormControl fullWidth size="small">
+                  <InputLabel id="demo-simple-select-label">RECORD</InputLabel>
+                  <Select
+                    labelId="demo-simple-select-label"
+                    id="demo-simple-select"
+                    value={selected}
+                    label="Age"
+                    onChange={(e) => setSelected(e.target.value)}
+                  >
+                    {list &&
+                      list.map((v) => {
+                        return <MenuItem value={v}>{v}</MenuItem>;
+                      })}
+                  </Select>
+                </FormControl>
+                <FormControl
+                  fullWidth
+                  size="small"
+                  style={{ marginTop: "10px" }}
+                >
+                  <InputLabel id="demo-simple-select-label">
+                    Identifier
+                  </InputLabel>
+                  <Select
+                    labelId="demo-simple-select-label"
+                    id="demo-simple-select"
+                    label="Age"
+                    value={id}
+                    onChange={(e) => setID(e.target.value)}
+                  >
+                    {idlist &&
+                      idlist.map((v) => {
+                        return <MenuItem value={v}>{v}</MenuItem>;
+                      })}
+                  </Select>
+                </FormControl>
+              </Box>
               <h4>JSON Viewer</h4>
-              {feedData && (
+              {record && (
                 <ReactJson
-                  src={feedData[0]}
+                  src={record}
                   theme="harmonic"
                   style={{ textAlign: "left" }}
+                  collapsed
                 />
               )}
             </Item>
@@ -101,7 +198,13 @@ const FeedFetcher = () => {
               {isloading ? (
                 <p>Loading feed data...</p>
               ) : (
-                <pre>{feedData && <TrafficEventTable data={feedData} />}</pre>
+                <>
+                  {/* <pre>
+                    {id && record && <TrafficEventTable data={record} />}
+                  </pre> */}
+                  {id && record && <MuiTable data={record} />}
+                  {/* {id && record && <TempTable data={record} />} */}
+                </>
               )}
             </Item>
           </Grid>

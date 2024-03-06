@@ -5,6 +5,8 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const TrafficEventTable = ({ data }) => {
+  console.log("Here", data);
+
   const columns = React.useMemo(
     () => [
       {
@@ -16,8 +18,24 @@ const TrafficEventTable = ({ data }) => {
         accessor: "Organization",
       },
       {
-        Header: "Roadway Name",
-        accessor: "RoadwayName",
+        Header: "Width",
+        accessor: "Width",
+      },
+      {
+        Header: "Height",
+        accessor: "Height",
+      },
+      {
+        Header: "Length",
+        accessor: "Length",
+      },
+      {
+        Header: "Weight",
+        accessor: "Weight",
+      },
+      {
+        Header: "Speed",
+        accessor: "Speed",
       },
       {
         Header: "Start Date",
@@ -102,6 +120,7 @@ const TrafficEventTable = ({ data }) => {
         </thead>
         <tbody {...getTableBodyProps()}>
           {page.map((row) => {
+            console.log(row);
             prepareRow(row);
             return (
               <tr {...row.getRowProps()}>
