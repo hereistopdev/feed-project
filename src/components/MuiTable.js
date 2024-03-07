@@ -75,7 +75,7 @@ export default function MuiTable({ data, identifier, pastData }) {
   }, [data, identifier]);
 
   return (
-    <div style={{ height: 400, width: "100%" }}>
+    <div style={{ height: "70vh", width: "100%" }}>
       <DataGrid
         rows={rows}
         columns={cols}
@@ -84,7 +84,7 @@ export default function MuiTable({ data, identifier, pastData }) {
             paginationModel: { page: 0, pageSize: 5 },
           },
         }}
-        pageSizeOptions={[5, 10]}
+        pageSizeOptions={[5, 10, 25, 100]}
         checkboxSelection
         slots={{ toolbar: GridToolbar }}
       />
