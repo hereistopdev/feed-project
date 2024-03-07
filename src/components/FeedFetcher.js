@@ -10,6 +10,7 @@ import Grid from "@mui/material/Grid";
 import {
   Breadcrumbs,
   Button,
+  Chip,
   FormControl,
   InputLabel,
   Link,
@@ -19,10 +20,15 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import { toast } from "react-toastify";
+import { Icons, toast } from "react-toastify";
 import logo from "../logo.svg";
 import TempTable from "./TempTable";
 import MuiTable from "./MuiTable";
+import {
+  GridCheckCircleIcon,
+  GridCheckIcon,
+  GridCloseIcon,
+} from "@mui/x-data-grid";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -33,6 +39,8 @@ const Item = styled(Paper)(({ theme }) => ({
 }));
 
 const FeedFetcher = () => {
+  const [pastData, setPastData] = useState([]);
+
   const [url, setUrl] = useState("");
   const [isloading, setIsLoading] = useState(false);
   const [feedData, setFeedData] = useState(null);
@@ -235,7 +243,42 @@ const FeedFetcher = () => {
           </Grid>
           <Grid item xs={8}>
             <Item>
-              <h4>Result Table</h4>
+              <Box
+                display={"flex"}
+                justifyContent={"space-between"}
+                alignItems={"center"}
+                padding={"0px 30px"}
+              >
+                <h2>Result Table</h2>
+                <h4>
+                  Past Data
+                  {pastData.length ? (
+                    <Chip
+                      icon={<GridCheckCircleIcon />}
+                      label="Saved"
+                      variant="outlined"
+                      style={{ marginLeft: "20px" }}
+                    />
+                  ) : (
+                    <Chip
+                      icon={<GridCloseIcon />}
+                      label="Unsaved"
+                      variant="outlined"
+                      style={{ marginLeft: "20px" }}
+                    />
+                  )}
+                </h4>
+                <Button
+                  variant="contained"
+                  color="success"
+                  onClick={() => {
+                    if (record === null) return;
+                    setPastData(record);
+                  }}
+                >
+                  SAVE
+                </Button>
+              </Box>
               {/* {feedData && <ProTable jons_data={feedData} />} */}
               {isloading ? (
                 <p>Loading feed data...</p>
