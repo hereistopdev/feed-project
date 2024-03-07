@@ -8,13 +8,16 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import {
+  Breadcrumbs,
   Button,
   FormControl,
   InputLabel,
+  Link,
   List,
   MenuItem,
   Select,
   TextField,
+  Typography,
 } from "@mui/material";
 import { toast } from "react-toastify";
 import logo from "../logo.svg";
@@ -33,6 +36,7 @@ const FeedFetcher = () => {
   const [url, setUrl] = useState("");
   const [isloading, setIsLoading] = useState(false);
   const [feedData, setFeedData] = useState(null);
+  const [history, setHistory] = useState(["Main"]);
 
   const [record, setRecord] = useState(null);
   const [list, setList] = useState(null);
@@ -42,12 +46,13 @@ const FeedFetcher = () => {
   const [idlist, setIDlist] = useState("");
 
   const filetered = (obj) => {
+    if (!obj) return [];
     console.log("here", obj, typeof obj);
 
     if (typeof obj === "string" || typeof obj === "number") {
       console.log(selected);
       setList([selected]);
-      setIDlist(["None"]);
+      setIDlist([]);
       setRecord([obj]);
       // setList(selected);
       return;
@@ -72,6 +77,7 @@ const FeedFetcher = () => {
       // axios.disable("etag");
       const response = await axios.post(
         "https://optimum-koala-informed.ngrok-free.app/api/data",
+        // "http://localhost:4000/api/data",
         {
           url: url,
         }
@@ -80,6 +86,7 @@ const FeedFetcher = () => {
       console.log(Object.keys(response.data));
       filetered(response.data);
       setFeedData(response.data);
+      setID("");
       // console.log(filetered(response.data));
       setIsLoading(false);
     } catch (error) {
@@ -132,12 +139,46 @@ const FeedFetcher = () => {
           <Grid item xs={4}>
             <Item>
               <Box m={3}>
+                <Breadcrumbs aria-label="breadcrumb">
+                  {history.map((v) => {
+                    return (
+                      <Link
+                        underline="hover"
+                        color="inherit"
+                        onClick={() => {
+                          console.log(history, v);
+                          const num = history.indexOf(v);
+                          let temp = [];
+                          if (num !== -1) {
+                            temp = history.slice(0, num + 1);
+                            setHistory(temp);
+                          }
+                          console.log(temp, feedData);
+                          if (temp.length === 1) filetered(feedData);
+                          if (temp.length) {
+                            let val = feedData;
+                            for (let i = 1; i < temp.length; i++) {
+                              val = val[temp[i]];
+                            }
+                            filetered(val);
+                          }
+                        }}
+                      >
+                        {v}
+                      </Link>
+                    );
+                  })}
+                </Breadcrumbs>
                 <Button
                   variant="contained"
                   color="primary"
                   style={{ margin: "10px" }}
                   onClick={() => {
-                    setID(null);
+                    setID("");
+                    setSelected("");
+                    setHistory(["Main"]);
+                    console.log(feedData);
+                    if (feedData == null) return;
                     filetered(feedData);
                   }}
                 >
@@ -150,7 +191,10 @@ const FeedFetcher = () => {
                     id="demo-simple-select"
                     value={selected}
                     label="Age"
-                    onChange={(e) => setSelected(e.target.value)}
+                    onChange={(e) => {
+                      setHistory([...history, e.target.value]);
+                      setSelected(e.target.value);
+                    }}
                   >
                     {list &&
                       list.map((v) => {

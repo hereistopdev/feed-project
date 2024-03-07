@@ -9,7 +9,23 @@ import {
 } from "@mui/material";
 
 const TempTable = ({ data }) => {
-  console.log(data);
+  const jsonparse = (event, route) => {
+    if (typeof event !== "object")
+      return {
+        value: event,
+        route: route,
+      };
+    let result = [];
+    for (const key in event) {
+      let temp = jsonparse(event[key], [...route, key]);
+      if (temp.value == undefined) result = [...result, ...temp];
+      else result.push(temp);
+    }
+    return result;
+  };
+
+  console.log(data, []);
+
   return (
     <TableContainer component={Paper}>
       <Table>
