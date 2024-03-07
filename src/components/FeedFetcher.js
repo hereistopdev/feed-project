@@ -47,10 +47,10 @@ const FeedFetcher = () => {
 
   const filetered = (obj) => {
     if (!obj) return [];
-    console.log("here", obj, typeof obj);
+    // console.log("here", obj, typeof obj);
 
     if (typeof obj === "string" || typeof obj === "number") {
-      console.log(selected);
+      // console.log(selected);
       setList([selected]);
       setIDlist([]);
       setRecord([obj]);
@@ -62,14 +62,14 @@ const FeedFetcher = () => {
     setRecord(obj);
     setList(temp);
     if (temp[0] === "0") setIDlist(Object.keys(obj[temp[0]]));
-    console.log(obj, temp);
+    // console.log(obj, temp);
   };
 
   const sendUrlToServer = async () => {
     if (url.length === 0) {
       toast.success("Hi");
       alert("You should enter URL");
-      console.log("error");
+      // console.log("error");
       return;
     }
     setIsLoading(true);
@@ -82,8 +82,8 @@ const FeedFetcher = () => {
           url: url,
         }
       );
-      console.log(response.data);
-      console.log(Object.keys(response.data));
+      // console.log(response.data);
+      // console.log(Object.keys(response.data));
       filetered(response.data);
       setFeedData(response.data);
       setID("");
@@ -91,16 +91,16 @@ const FeedFetcher = () => {
       setIsLoading(false);
     } catch (error) {
       alert("Invalid URL or Internal Server Error");
-      console.error("Error fetching feed:", error);
+      // console.error("Error fetching feed:", error);
       setIsLoading(false);
       setFeedData();
     }
   };
 
   useEffect(() => {
-    console.log(selected);
+    // console.log(selected);
     const temp = record ? record[selected] : null;
-    console.log(temp);
+    // console.log(temp);
     if (temp) filetered(temp);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selected]);
@@ -146,14 +146,12 @@ const FeedFetcher = () => {
                         underline="hover"
                         color="inherit"
                         onClick={() => {
-                          console.log(history, v);
                           const num = history.indexOf(v);
                           let temp = [];
                           if (num !== -1) {
                             temp = history.slice(0, num + 1);
                             setHistory(temp);
                           }
-                          console.log(temp, feedData);
                           if (temp.length === 1) filetered(feedData);
                           if (temp.length) {
                             let val = feedData;
@@ -177,7 +175,7 @@ const FeedFetcher = () => {
                     setID("");
                     setSelected("");
                     setHistory(["Main"]);
-                    console.log(feedData);
+                    // console.log(feedData);
                     if (feedData == null) return;
                     filetered(feedData);
                   }}
@@ -246,7 +244,7 @@ const FeedFetcher = () => {
                   {/* <pre>
                     {id && record && <TrafficEventTable data={record} />}
                   </pre> */}
-                  {id && record && <MuiTable data={record} />}
+                  {id && record && <MuiTable data={record} identifier={id} />}
                   {/* {id && record && <TempTable data={record} />} */}
                 </>
               )}

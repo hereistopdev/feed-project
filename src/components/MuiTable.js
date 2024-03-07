@@ -1,7 +1,7 @@
 import * as React from "react";
-import { DataGrid } from "@mui/x-data-grid";
+import { DataGrid, GridToolbar } from "@mui/x-data-grid";
 
-export default function MuiTable({ data }) {
+export default function MuiTable({ data, identifier }) {
   const [cols, setCols] = React.useState([]);
   const [rows, setRows] = React.useState([]);
 
@@ -21,16 +21,30 @@ export default function MuiTable({ data }) {
   };
 
   React.useEffect(() => {
-    console.log(data[0]);
     if (data.length && data[0]) {
-      const temp = jsonparse(data[0], []).map((v) => {
+      let first = {};
+      let pos = 0;
+      const temp = jsonparse(data[0], []).map((v, i) => {
         const name = v.route.join(".");
-        return {
-          field: name,
-          headerName: name,
-          width: 200,
-        };
+        if (name === identifier) {
+          first = {
+            field: name,
+            headerName: name,
+            width: 200,
+          };
+          pos = i;
+        } else {
+          return {
+            field: name,
+            headerName: name,
+            width: 200,
+          };
+        }
       });
+      temp.splice(pos, 1);
+      temp.unshift(first);
+      console.log(temp, identifier, first, pos);
+
       setCols(temp);
 
       const rowTemp = data.map((row, index) => {
@@ -42,7 +56,7 @@ export default function MuiTable({ data }) {
       });
       setRows(rowTemp);
     }
-  }, [data]);
+  }, [data, identifier]);
 
   return (
     <div style={{ height: 400, width: "100%" }}>
@@ -56,6 +70,7 @@ export default function MuiTable({ data }) {
         }}
         pageSizeOptions={[5, 10]}
         checkboxSelection
+        slots={{ toolbar: GridToolbar }}
       />
     </div>
   );
