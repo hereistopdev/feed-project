@@ -287,7 +287,13 @@ const FeedFetcher = () => {
                   {/* <pre>
                     {id && record && <TrafficEventTable data={record} />}
                   </pre> */}
-                  {id && record && <MuiTable data={record} identifier={id} />}
+                  {id && record && (
+                    <MuiTable
+                      data={record}
+                      identifier={id}
+                      pastData={pastData}
+                    />
+                  )}
                   {/* {id && record && <TempTable data={record} />} */}
                 </>
               )}
