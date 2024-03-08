@@ -75,13 +75,24 @@ export default function MuiTable({ data, identifier, pastData, setNew }) {
           // console.log(pastTemp.length, jsonparse(row, []).length);
         }
         // eslint-disable-next-line array-callback-return
+        const head = row[identifier];
+        // console.log(head);
+        const newObj = {};
         jsonparse(row, []).map((v, i) => {
-          flag && pastTemp.length <= jsonparse(row, []).length
-            ? (obj[v.route.join(".")] =
-                v.value + " ( " + pastTemp[i].value + " ) ")
-            : (obj[v.route.join(".")] = v.value);
+          if (flag && pastTemp.length <= jsonparse(row, []).length) {
+            obj[v.route.join(".")] =
+              v.value + " ( " + pastTemp[i].value + " ) ";
+            newObj[head + "." + v.route.join(".")] = {
+              past: pastTemp[i].value,
+              current: v.value,
+            };
+            // v.value + " ( " + pastTemp[i].value + " ) ";
+          } else {
+            obj[v.route.join(".")] = v.value;
+            newObj[head + "." + v.route.join(".")] = { current: v.value };
+          }
         });
-        newArray.push(obj);
+        newArray.push(newObj);
         return { ...obj, id: index + 1 };
       });
       setRows(rowTemp);
