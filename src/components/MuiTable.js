@@ -1,7 +1,7 @@
 import * as React from "react";
 import { DataGrid, GridToolbar } from "@mui/x-data-grid";
 
-export default function MuiTable({ data, identifier, pastData }) {
+export default function MuiTable({ data, identifier, pastData, setNew }) {
   const [cols, setCols] = React.useState([]);
   const [rows, setRows] = React.useState([]);
 
@@ -21,7 +21,7 @@ export default function MuiTable({ data, identifier, pastData }) {
   };
 
   React.useEffect(() => {
-    console.log(data, pastData);
+    // console.log(data, pastData);
     if (data.length && data[0]) {
       let first = {};
       let pos = 0;
@@ -40,7 +40,7 @@ export default function MuiTable({ data, identifier, pastData }) {
           maxpos = tempL;
         }
       });
-      console.log(maxpos);
+      // console.log(maxpos);
 
       // eslint-disable-next-line array-callback-return
       const temp = maxpos.map((v, i) => {
@@ -65,13 +65,14 @@ export default function MuiTable({ data, identifier, pastData }) {
 
       setCols(temp);
 
+      const newArray = [];
       const rowTemp = data.map((row, index) => {
         const obj = {};
         let pastTemp = [];
         if (flag) {
           pastTemp = jsonparse(pastData[index], []);
-          console.log(pastTemp, jsonparse(row, []));
-          console.log(pastTemp.length, jsonparse(row, []).length);
+          // console.log(pastTemp, jsonparse(row, []));
+          // console.log(pastTemp.length, jsonparse(row, []).length);
         }
         // eslint-disable-next-line array-callback-return
         jsonparse(row, []).map((v, i) => {
@@ -80,9 +81,11 @@ export default function MuiTable({ data, identifier, pastData }) {
                 v.value + " ( " + pastTemp[i].value + " ) ")
             : (obj[v.route.join(".")] = v.value);
         });
+        newArray.push(obj);
         return { ...obj, id: index + 1 };
       });
       setRows(rowTemp);
+      setNew(newArray);
     }
   }, [data, identifier]);
 

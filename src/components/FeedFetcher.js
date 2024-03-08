@@ -41,6 +41,7 @@ const Item = styled(Paper)(({ theme }) => ({
 const FeedFetcher = () => {
   const [pastData, setPastData] = useState([]);
   const [pastHistroy, setPastHistory] = useState([]);
+  const [newdata, setNew] = useState([]);
 
   const [url, setUrl] = useState("");
   const [isloading, setIsLoading] = useState(false);
@@ -53,6 +54,21 @@ const FeedFetcher = () => {
   const [selected, setSelected] = React.useState(null);
   const [id, setID] = useState("");
   const [idlist, setIDlist] = useState("");
+
+  const jsonparse = (event, route) => {
+    if (typeof event !== "object" || event == null)
+      return {
+        value: event == null ? "Null" : event,
+        route: route,
+      };
+    let result = [];
+    for (const key in event) {
+      let temp = jsonparse(event[key], [...route, key]);
+      if (temp.value == undefined) result = [...result, ...temp];
+      else result.push(temp);
+    }
+    return result;
+  };
 
   const filetered = (obj) => {
     if (!obj) return [];
@@ -97,6 +113,7 @@ const FeedFetcher = () => {
       setFeedData(response.data);
       setID("");
       setSelected("");
+      setNew([]);
       // console.log(filetered(response.data));
       setIsLoading(false);
     } catch (error) {
@@ -185,6 +202,7 @@ const FeedFetcher = () => {
                     setID("");
                     setSelected("");
                     setHistory(["Main"]);
+                    setNew([]);
                     // console.log(feedData);
                     if (feedData == null) return;
                     filetered(feedData);
@@ -245,6 +263,20 @@ const FeedFetcher = () => {
                       collapsed
                     />
                   )}
+
+                  {newdata.length ? (
+                    <>
+                      <h4>New JSON</h4>
+                      <ReactJson
+                        src={newdata}
+                        theme="harmonic"
+                        style={{ textAlign: "left" }}
+                        collapsed
+                      />
+                    </>
+                  ) : (
+                    <></>
+                  )}
                 </>
               )}
             </Item>
@@ -280,7 +312,7 @@ const FeedFetcher = () => {
                   color="success"
                   onClick={() => {
                     if (record === null) return;
-                    console.log("history", history);
+                    // console.log("history", history);
                     setPastData(record);
                     setPastHistory(history);
                   }}
@@ -295,7 +327,12 @@ const FeedFetcher = () => {
                     {id && record && <TrafficEventTable data={record} />}
                   </pre> */}
                 {id && record && (
-                  <MuiTable data={record} identifier={id} pastData={pastData} />
+                  <MuiTable
+                    data={record}
+                    identifier={id}
+                    pastData={pastData}
+                    setNew={setNew}
+                  />
                 )}
                 {/* {id && record && <TempTable data={record} />} */}
               </>
