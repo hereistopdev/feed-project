@@ -6,9 +6,9 @@ export default function MuiTable({ data, identifier, pastData }) {
   const [rows, setRows] = React.useState([]);
 
   const jsonparse = (event, route) => {
-    if (typeof event !== "object")
+    if (typeof event !== "object" || event == null)
       return {
-        value: event,
+        value: event == null ? "Null" : event,
         route: route,
       };
     let result = [];
@@ -21,19 +21,29 @@ export default function MuiTable({ data, identifier, pastData }) {
   };
 
   React.useEffect(() => {
+    console.log(data, pastData);
     if (data.length && data[0]) {
       let first = {};
       let pos = 0;
 
       let flag = false;
-      if (
-        pastData.length &&
-        jsonparse(data, []).length === jsonparse(pastData, []).length
-      ) {
+      if (pastData.length && data.length === pastData.length) {
         flag = true;
       }
 
-      const temp = jsonparse(data[0], []).map((v, i) => {
+      let maxpos = 0;
+      let maxlength = 0;
+      data.map((v, i) => {
+        const tempL = jsonparse(v, []);
+        if (tempL.length > maxlength) {
+          maxlength = tempL.length;
+          maxpos = tempL;
+        }
+      });
+      console.log(maxpos);
+
+      // eslint-disable-next-line array-callback-return
+      const temp = maxpos.map((v, i) => {
         const name = v.route.join(".");
         if (name === identifier) {
           first = {
@@ -60,10 +70,12 @@ export default function MuiTable({ data, identifier, pastData }) {
         let pastTemp = [];
         if (flag) {
           pastTemp = jsonparse(pastData[index], []);
+          console.log(pastTemp, jsonparse(row, []));
+          console.log(pastTemp.length, jsonparse(row, []).length);
         }
         // eslint-disable-next-line array-callback-return
         jsonparse(row, []).map((v, i) => {
-          flag
+          flag && pastTemp.length <= jsonparse(row, []).length
             ? (obj[v.route.join(".")] =
                 v.value + " ( " + pastTemp[i].value + " ) ")
             : (obj[v.route.join(".")] = v.value);

@@ -40,6 +40,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 const FeedFetcher = () => {
   const [pastData, setPastData] = useState([]);
+  const [pastHistroy, setPastHistory] = useState([]);
 
   const [url, setUrl] = useState("");
   const [isloading, setIsLoading] = useState(false);
@@ -95,6 +96,7 @@ const FeedFetcher = () => {
       filetered(response.data);
       setFeedData(response.data);
       setID("");
+      setSelected("");
       // console.log(filetered(response.data));
       setIsLoading(false);
     } catch (error) {
@@ -230,14 +232,20 @@ const FeedFetcher = () => {
                   </Select>
                 </FormControl>
               </Box>
-              <h4>JSON Viewer</h4>
-              {record && (
-                <ReactJson
-                  src={record}
-                  theme="harmonic"
-                  style={{ textAlign: "left" }}
-                  collapsed
-                />
+              {isloading ? (
+                <p>Loading feed data...</p>
+              ) : (
+                <>
+                  <h4>JSON Viewer</h4>
+                  {record && (
+                    <ReactJson
+                      src={record}
+                      theme="harmonic"
+                      style={{ textAlign: "left" }}
+                      collapsed
+                    />
+                  )}
+                </>
               )}
             </Item>
           </Grid>
@@ -251,18 +259,17 @@ const FeedFetcher = () => {
               >
                 <h2>Result Table</h2>
                 <h4>
-                  Past Data
                   {pastData.length ? (
                     <Chip
                       icon={<GridCheckCircleIcon />}
-                      label="Saved"
+                      label="Data Saved"
                       variant="outlined"
                       style={{ marginLeft: "20px" }}
                     />
                   ) : (
                     <Chip
                       icon={<GridCloseIcon />}
-                      label="Unsaved"
+                      label="Data not Saved"
                       variant="outlined"
                       style={{ marginLeft: "20px" }}
                     />
@@ -273,30 +280,25 @@ const FeedFetcher = () => {
                   color="success"
                   onClick={() => {
                     if (record === null) return;
+                    console.log("history", history);
                     setPastData(record);
+                    setPastHistory(history);
                   }}
                 >
                   SAVE
                 </Button>
               </Box>
               {/* {feedData && <ProTable jons_data={feedData} />} */}
-              {isloading ? (
-                <p>Loading feed data...</p>
-              ) : (
-                <>
-                  {/* <pre>
+
+              <>
+                {/* <pre>
                     {id && record && <TrafficEventTable data={record} />}
                   </pre> */}
-                  {id && record && (
-                    <MuiTable
-                      data={record}
-                      identifier={id}
-                      pastData={pastData}
-                    />
-                  )}
-                  {/* {id && record && <TempTable data={record} />} */}
-                </>
-              )}
+                {id && record && (
+                  <MuiTable data={record} identifier={id} pastData={pastData} />
+                )}
+                {/* {id && record && <TempTable data={record} />} */}
+              </>
             </Item>
           </Grid>
         </Grid>
