@@ -43,7 +43,7 @@ const TempTable = ({ data }) => {
               return (
                 <TableRow key={index}>
                   {Object.values(row).map((value, index) => {
-                    console.log(value);
+                    // console.log(value);
                     if (typeof value == "object") {
                       return <TableCell key={index}>{"Array"}</TableCell>;
                     } else return <TableCell key={index}>{value}</TableCell>;
