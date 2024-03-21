@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import ReactJson from "react-json-view";
-// import TrafficEventTable from "./TrafficEventTable";
 
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
@@ -14,23 +13,15 @@ import {
   FormControl,
   InputLabel,
   Link,
-  // List,
   MenuItem,
   Select,
   TextField,
-  // Typography,
 } from "@mui/material";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import logo from "../logo.svg";
-// import TempTable from "./TempTable";
 import MuiTable from "./MuiTable";
-import {
-  GridCheckCircleIcon,
-  // GridCheckIcon,
-  GridCloseIcon,
-} from "@mui/x-data-grid";
+import { GridCheckCircleIcon, GridCloseIcon } from "@mui/x-data-grid";
 import LogTable from "./logTable";
-import "react-toastify/dist/ReactToastify.css";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -40,16 +31,15 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
-const FeedFetcher = () => {
+const Logs = () => {
+  const [alldata, setAlldata] = useState([]);
+
   const [pastData, setPastData] = useState([]);
   const [pastHistroy, setPastHistory] = useState([]);
   const [newdata, setNew] = useState([]);
-  const [alldata, setAlldata] = useState([]);
 
   const [url, setUrl] = useState("");
   const [isloading, setIsLoading] = useState(false);
-  const [isloading1, setIsLoading1] = useState(false);
-  const [saveFlag, setSaveFlag] = useState(false);
   const [feedData, setFeedData] = useState(null);
   const [history, setHistory] = useState(["Main"]);
 
@@ -75,41 +65,17 @@ const FeedFetcher = () => {
     return result;
   };
 
-  const getFeeds = async () => {
-    setIsLoading1(true);
-    try {
-      const response = await axios.post("http://localhost:4000/data/byURL/", {
-        url: url,
-      });
-      setAlldata(response.data);
-      setIsLoading1(false);
-      toast.success("Past Data loaded successfully.");
-    } catch (error) {
-      toast.warning("Invalid URL or Internal Server Error");
-      // console.error("Error fetching feed:", error);
-      setIsLoading1(false);
-      setFeedData();
-    }
-  };
   const onSave = async () => {
     if (record === null) return;
-    if (!id) {
-      toast.warning("You should select ID");
-      return;
-    } // console.log("history", history);
+    // console.log("history", history);
     setPastData(record);
     setPastHistory(history);
-    console.log(history, record, url, id);
-    setSaveFlag(true);
+    console.log(history, record, url);
     try {
       await axios.post("http://localhost:4000/data/", {
         url: url,
         feed: JSON.stringify(record),
         history: JSON.stringify(history),
-        identifier: id,
-      });
-      getFeeds().then(() => {
-        toast.success("Data Saved Successfully");
       });
     } catch (error) {
       console.log(error);
@@ -138,38 +104,26 @@ const FeedFetcher = () => {
 
   const sendUrlToServer = async () => {
     if (url.length === 0) {
-      toast.warning("You should enter URL");
+      toast.success("Hi");
+      alert("You should enter URL");
       // console.log("error");
       return;
     }
     setIsLoading(true);
-    getFeeds().then(async () => {
-      try {
-        // axios.disable("etag");
-        const response = await axios.post(
-          // "https://optimum-koala-informed.ngrok-free.app/api/data",
-          "http://localhost:4000/api/data",
-          {
-            url: url,
-          }
-        );
-        // console.log(response.data);
-        // console.log(Object.keys(response.data));
-        filetered(response.data);
-        setFeedData(response.data);
-        setID("");
-        setSelected("");
-        setNew([]);
-        setHistory(["Main"]);
-        // console.log(filetered(response.data));
-        toast.success("Fetch Data Successfully");
-        setIsLoading(false);
-      } catch (error) {
-        toast.warning("Invalid URL or Internal Server Error");
-        setIsLoading(false);
-        setFeedData();
-      }
-    });
+    try {
+      // axios.disable("etag");
+      const response = await axios.get("http://localhost:4000/data/", {
+        url: url,
+      });
+      setAlldata(response.data);
+      console.log(response.data);
+      setIsLoading(false);
+    } catch (error) {
+      alert("Invalid URL or Internal Server Error");
+      // console.error("Error fetching feed:", error);
+      setIsLoading(false);
+      setFeedData();
+    }
   };
 
   useEffect(() => {
@@ -179,13 +133,6 @@ const FeedFetcher = () => {
     if (temp) filetered(temp);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selected]);
-
-  useEffect(() => {
-    if (pastHistroy.length) {
-      console.log(pastHistroy);
-      setHistory(pastHistroy);
-    }
-  }, [pastHistroy]);
 
   return (
     <Box bgcolor="#fff">
@@ -211,26 +158,19 @@ const FeedFetcher = () => {
                 onChange={(e) => setUrl(e.target.value)}
                 style={{ width: "100%" }}
               />
-              <Button variant="contained" onClick={sendUrlToServer}>
-                Send URL to Server
+              <Button
+                variant="contained"
+                onClick={sendUrlToServer}
+                style={{ width: "150px" }}
+              >
+                Get Data
               </Button>
             </Box>
           </Grid>
         </Grid>
-
         <Grid container spacing={2} mt={3}>
           <Grid item xs={12}>
-            {isloading1 ? (
-              <p>Loading past data...</p>
-            ) : alldata.length ? (
-              <LogTable
-                data={alldata}
-                setPastData={setPastData}
-                setPastHistory={setPastHistory}
-              />
-            ) : (
-              <>No Past Data</>
-            )}
+            <LogTable data={alldata} />
           </Grid>
         </Grid>
         <Grid container spacing={2} mt={3}>
@@ -238,15 +178,18 @@ const FeedFetcher = () => {
             <Item>
               <Box m={3}>
                 <Breadcrumbs aria-label="breadcrumb">
-                  {history.map((v, i) => {
+                  {history.map((v) => {
                     return (
                       <Link
                         underline="hover"
                         color="inherit"
                         onClick={() => {
+                          const num = history.indexOf(v);
                           let temp = [];
-                          temp = history.slice(0, i + 1);
-                          setHistory(temp);
+                          if (num !== -1) {
+                            temp = history.slice(0, num + 1);
+                            setHistory(temp);
+                          }
                           if (temp.length === 1) filetered(feedData);
                           if (temp.length) {
                             let val = feedData;
@@ -359,7 +302,7 @@ const FeedFetcher = () => {
               >
                 <h2>Result Table</h2>
                 <h4>
-                  {saveFlag ? (
+                  {pastData.length ? (
                     <Chip
                       icon={<GridCheckCircleIcon />}
                       label="Data Saved"
@@ -399,9 +342,8 @@ const FeedFetcher = () => {
           </Grid>
         </Grid>
       </Box>
-      <ToastContainer />
     </Box>
   );
 };
 
-export default FeedFetcher;
+export default Logs;
